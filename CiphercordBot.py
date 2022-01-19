@@ -4,10 +4,13 @@ from unicodedata import name
 import wikiModule
 import help
 import discord
-from dotenv import load_dotenv
+
 from discord.ext import commands
 
-load_dotenv()
+if not os.environ.get("PRODUCTION"):
+    from dotenv import load_dotenv
+
+    load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
