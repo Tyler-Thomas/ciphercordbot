@@ -30,7 +30,7 @@ async def on_ready():
 @bot.command(name='wiki', help='Type 0!wiki and the name of a character(e.g 0!wiki Roy) to generate a link to their Serenes Forest Page.\nFor entries with spaces(such as Robin (Male), place a \'_\' character where the space should be.')
 async def wiki(ctx,char):
     print("Wiki Command called: "+char)
-    name_arr = char.split(" ")
+    name_arr = char.split("_")
     search_term = "" 
 
     for word in name_arr:
