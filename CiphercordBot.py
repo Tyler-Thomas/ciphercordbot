@@ -34,7 +34,10 @@ async def wiki(ctx,char):
     search_term = "" 
 
     for word in name_arr:
-        word = word.capitalize()
+        if(word[0]=='('):
+            word=word.replace(word[1:2],word[1,2].capitalize())
+        else:
+            word = word.capitalize()
         search_term += word
         search_term += "_" 
     print(search_term)
