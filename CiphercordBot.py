@@ -29,9 +29,17 @@ async def on_ready():
 
 @bot.command(name='wiki', help='Type 0!wiki and the name of a character(e.g 0!wiki Roy) to generate a link to their Serenes Forest Page.\nFor entries with spaces(such as Robin (Male), place a \'_\' character where the space should be.')
 async def wiki(ctx,char):
-    print("Wiki Command called: "+char.replace(char[0:1],(char[0:1].capitalize())))
-    if (char.replace(char[0:1],(char[0:1].capitalize()))+' (Cipher)') in wikiModule.characters:
-        await ctx.send(f'https://wiki.serenesforest.net/index.php/{char}_(Cipher)')
+    print("Wiki Command called: "+char)
+    name_arr = char.split(" ")
+    search_term = "" 
+
+    for word in name_arr:
+        word = word.capitalize()
+        search_term += word
+        search_term += "_" 
+
+    if (search_term[0:len(search_term)-1]+' (Cipher)') in wikiModule.characters:
+        await ctx.send(f'https://wiki.serenesforest.net/index.php/{search_term}(Cipher)')
     else:
        await ctx.send('That character page doesn\'t exist. Did you misspell something?')
 
