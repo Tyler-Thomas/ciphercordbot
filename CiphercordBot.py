@@ -58,7 +58,7 @@ async def tips(ctx,card):
 @bot.event
 async def on_member_join(member):
     print("Member joined")
-    ch=bot.get_channel(531583025385963543)
+    ch=bot.get_channel(107543785776373760)
     await ch.send(
         f'''Hi {member.mention}. Welcome to Ciphercord! 
 For some help with playing cipher or deck building advice you can ask in:
@@ -71,8 +71,8 @@ We mainly use LackeyCCG on this server and all resources can be found in #cipher
 async def on_message(message):
     if message.author == bot.user:
         return
-    if message.content == '@poor dreidel,,,':
-        await message.channel.send(message.content)
+    #if message.content == '@poor dreidel,,,':
+       # await message.channel.send(message.content)
     await bot.process_commands(message)
 bot.run(TOKEN)
 
