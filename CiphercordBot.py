@@ -29,7 +29,7 @@ async def on_ready():
 
 @bot.command(name='wiki', help='Type 0!wiki and the name of a character(e.g 0!wiki Roy) to generate a link to their Serenes Forest Page.\nFor entries with spaces(such as Robin (Male), place a \'_\' character where the space should be.')
 async def wiki(ctx,char):
-    print(f"Wiki Command called: {char.capitalize()}")
+    print("Wiki Command called")
     if (char.capitalize()+' (Cipher)') in wikiModule.characters:
         await ctx.send(f'https://wiki.serenesforest.net/index.php/{char}_(Cipher)')
     else:
