@@ -74,9 +74,10 @@ async def on_member_join(member):
     await ch.send(
         f'''Hi {member.mention}. Welcome to Ciphercord! 
 For some help with playing cipher or deck building advice you can ask in:
-general/ #cipher-discussion/#cipher-questions 
-or direct attention to people with the @ I\'m being helpful role
-We mainly use LackeyCCG on this server and all resources can be found in #cipher-resources '''
+general/ <#194169331091767296>/<#454116320380715019> 
+or direct attention to people with the @ I\'m being helpful role.
+We mainly use LackeyCCG on this server and all resources can be found in <#333965218482880513>.
+If you're here to collect, you can find help in <#343299107554590722>. '''
     )
 
 @bot.event
