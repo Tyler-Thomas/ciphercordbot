@@ -27,7 +27,7 @@ async def on_ready():
     
     print(f'{bot.user.name} has connected to Discord!')
 
-@bot.command(name='wiki', help='Type 0!wiki and the name of a character(e.g 0!wiki Roy) to generate a link to their Serenes Forest Page.')
+@bot.command(name='wiki', help='Type 0!wiki and the name of a character(e.g 0!wiki Roy) to generate a link to their Serenes Forest Page.\nFor entries with spaces(such as Robin (Male), place a \'_\' character where the space should be.')
 async def wiki(ctx,char):
     print("Wiki Command called")
     if (char+' (Cipher)') in wikiModule.characters:
@@ -38,17 +38,18 @@ async def wiki(ctx,char):
 @bot.command(name='tips', help=helpstring)
 async def tips(ctx,card):
     print("Tips Command Called")
-    if(card in help.suggestions):
+    if(card.capitalize() in help.suggestions):
         entry=help.suggestions[card]
-        output=f'Name: {entry["name"]}\nHere are some tips:'
+        output=f'```Name: {entry["name"]}\nHere are some tips:'
         for x in entry["tips"]:
-            output+=f'\n{x}'
+            output+=f'\n\n{x}'
         if("cards" in entry):
-            output+='\nSee also:'
+            output+='\n\nSee also:'
             for x in entry['cards']:
                 output+=f"\n{x}"
+            output+="```"
         else:
-            output+='\n This card can fit its way into a vast amount of decks.'
+            output+='\n This card can fit its way into a vast amount of decks.```'
         await ctx.send(output)
     else:
         await ctx.send('This card hasn\'t been listed in this bot yet, but a member of Ciphercord will likely be able to help you')
