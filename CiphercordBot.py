@@ -37,7 +37,7 @@ async def wiki(ctx,char):
         word = word.capitalize()
         search_term += word
         search_term += "_" 
-
+    print(search_term)
     if (search_term[0:len(search_term)-1]+' (Cipher)') in wikiModule.characters:
         await ctx.send(f'https://wiki.serenesforest.net/index.php/{search_term}(Cipher)')
     else:
