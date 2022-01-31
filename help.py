@@ -641,11 +641,11 @@ MCs={
         'author':'BanjoMW',
         'explanation':'''Dimitri relies on having more orbs than your opponent to obtain his +1 draw OPT. This is helped by the fact that you have 2 options for a turn 2 bridge with 70 attack and Dedue 1 can further increase Dimitri’s attack just by living on the field. If you go first and bridge on turn 2 it is very likely that you will have more orbs by the time you bring in your main promo and can start drawing. However without orb advantage he can become a vanilla MC. The main Promo also gets to destroy a non-MC enemy when his attack destroys and orb. Timing your Byleth CP correctly can help massively to ensure Dimitri doesn’t get hit as often. Turn 5 onwards you can utilise Sothis and Dimitri’s CP’s to give him more actions per turn. Mercedes 5 will help you get units out to use for Dimitri’s CP, she will also buff Dimitri making it easier for him to hit. Dimitri can struggle against the opponent backlining their MC so you can run cards like Hapi and Seteth to get around this issue.''',
         'staples':'''•    Dedue, Taciturn Devotee, B21, 1
-        •    Ashe, Arrow of Justice, B21, 3(2)
-        •    Mercedes, Benevolent Soul, B21, 5(3)
-        •    Hapi, Karma-Burdened Valkyrie, B21 4(3)
-        •    Byleth (Male), He who Bears the Flames Within, B18, 5(4)
-        •    Sothis, The Beginning, B19, 2'''
+•    Ashe, Arrow of Justice, B21, 3(2)
+•    Mercedes, Benevolent Soul, B21, 5(3)
+•    Hapi, Karma-Burdened Valkyrie, B21 4(3)
+•    Byleth (Male), He who Bears the Flames Within, B18, 5(4)
+•    Sothis, The Beginning, B19, 2'''
     },
     'Eldigan':{
         'deck':'Eldigan(General)',
@@ -700,9 +700,9 @@ Lute, Matchless Prodigal Mage
         'explanation':'''Fir has one of the strongest early games in cipher and is able to stabilize herself into the midgame because she gives an additional +10 when a unit is supported by a sword. This almost negates one of the biggest problem’s that swordmasters have in that they’re 10 supports meaning they have worse supports than most other cards in the game which can cause them to lose interactions because of their supports, now they tie on support essentially with most non flier decks thanks to fir. This can also make it easier for lowcost units such as Josh 1 and Al 1 to hit bigger opponents. These lowcosts can also be redeployed by Gerik 4 and will buff frontline as a result, further increasing the chances of units hitting. Another way to play Fir is that you can run high supports such as Green’s (mostly) Sword Fliers and Purple’s x supports to try to ensure she wins all combat interactions.''',        
         'staples': 
         '''•    Roy, Evil Star-Scorching Binding Flame, B22, 5(4)
-        •    Mirabilis, Elf of Daydreams, B22, 0
-        •    Matthew, Elegy for a Shadow, B13 4(3)
-        •    Eliwood, Blazing Knight of Valor, B13, 5(4)'''
+•    Mirabilis, Elf of Daydreams, B22, 0
+•    Matthew, Elegy for a Shadow, B13 4(3)
+•    Eliwood, Blazing Knight of Valor, B13, 5(4)'''
     },
     'Hana':{
         'deck': 'Hana',
@@ -716,8 +716,8 @@ Lute, Matchless Prodigal Mage
         She can be run with a number of flier splashes, each one providing something that hana lacks due to her being mostly a buffer/consistency engine.
         Red gives card draw and solid beaters, Blue gives some draw and utility, Black + Black/White gives destruction effects / pulls, and purple gives good 1 costs and some value.''',
         'staples':''' -B15-071SR Hinoka, Heavenly Queen of the Shining Sun
-        -B20-019N Reina, Lady of the Palace Guard
-        -B02-049HN Emma, Kinshi Knight Fledgling'''
+-B20-019N Reina, Lady of the Palace Guard
+-B02-049HN Emma, Kinshi Knight Fledgling'''
     },
     'Raven':{
         'deck': 'Raven, Unquenched Flame of Vengeance',
@@ -773,12 +773,12 @@ Play these after you are out of Mae Overclasses to clear your opponents board. R
         'author': 'Eidolon',
         'explanation':'''It's a midrange deck, meaning you aim to take control of the game or in some cases, finish it by turn 5. There's not really much of a secret to playing this deck's first few turns, you just play your curve aggressively to set yourself up to win by turn 5 or turn 6 by utilizing Ike and/or Caeda. Sigrun rewards playing your curve as it naturally fills the condition for her summoning skill as your opponent clears your low cost units, so there's really no reason to keep holding on to them. After you promote, your priority should be getting the floodgate fairies onto the field as they are very good tap fodder for Sigrun's skill, providing value even though they can't hit. You should be using Sigrun's tap for +20 most of the time, because this deck normally runs 12 to 16 Sigruns, so get ready for unpleasant Sigrun selfs. Once the fairies have hit the field, you can think about the matchup you're playing, if Plumeria can significantly hinder your opponent's deploys (such as against big purple), you can opt to playing a slower game by stablishing more field presence before just going for game with Ike and Caeda 5. If they aren't as limited by Plumeria or if they are a base 70 MC, you can just go face and force your opponent to find an out to your strong fields every turn.''',
         'staples':'''-Maria 4(3): The flier deck staple, this card is broken and you are a dum dum if you don't put this in your deck;
-        -Caeda 5(4) Colorless: This is your finisher, this is usually what you'll be relying on to close out games;
-        -Haar 1: This card does just about everything Sigrun could want it to, it's good tap fodder, it provides movement on support and on field, and you can crit with it.
-        -Plumeria 2: This card hard presses top heavy decks to continuously remove her just so they can play the game, she also happens to be a 1-2 range, so she has additional utility by being able to crit from the backline when needed.
-        -Ike 4(3) B22: Your alternative to Caeda to end games. A bit harder to set up than Caeda, but he doubles as a removal tool. Being a 70 base in a flier deck is also an advantage.
-        Caeda 4(3) B13: Draws on non MC hit, provides extra tempo midturn and happens to be Caeda 5(4) evades, she's just extremely solid.
-        Mirabilis: Extremely useful in matchups where Zephiel exists, still good when he doesn't. Being a 0 cost colorless card is just a very nice tool for Sigrun to have, and while some may argue she's not a must have, there's very few cases where she hurts your deck for being there. '''
+-Caeda 5(4) Colorless: This is your finisher, this is usually what you'll be relying on to close out games;
+-Haar 1: This card does just about everything Sigrun could want it to, it's good tap fodder, it provides movement on support and on field, and you can crit with it.
+-Plumeria 2: This card hard presses top heavy decks to continuously remove her just so they can play the game, she also happens to be a 1-2 range, so she has additional utility by being able to crit from the backline when needed.
+-Ike 4(3) B22: Your alternative to Caeda to end games. A bit harder to set up than Caeda, but he doubles as a removal tool. Being a 70 base in a flier deck is also an advantage.
+-Caeda 4(3) B13: Draws on non MC hit, provides extra tempo midturn and happens to be Caeda 5(4) evades, she's just extremely solid.
+-Mirabilis: Extremely useful in matchups where Zephiel exists, still good when he doesn't. Being a 0 cost colorless card is just a very nice tool for Sigrun to have, and while some may argue she's not a must have, there's very few cases where she hurts your deck for being there. '''
 
     }
 }
