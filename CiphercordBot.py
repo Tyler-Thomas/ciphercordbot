@@ -77,9 +77,9 @@ async def tips(ctx,card):
         output=f'```Deck: {entry["deck"]}\n'
         output+=f'Intended Final Promo: {entry["promo"]}\n'
         output+=f'Author: {entry["author"]}\n\n'
-        output+=f'{entry["explanation"]}\n\n'
-        output+=f'Staples:\n{entry["staples"]}```'
+        output+=f'{entry["explanation"]}```'
         await ctx.send(output)
+        await ctx.send(f'```Staples:\n{entry["staples"]}```')
     else:
         await ctx.send('This deck hasn\'t been listed in this bot yet, but a member of Ciphercord will likely be able to help you.')
 
