@@ -39,7 +39,7 @@ suggestions={
             'Maria, Wyvern-Riding Mage Princess',
             'Palla, Elder Foreign Pegasus',
             'Necrodragon, Resurrected Wyrm',
-            'Hinoka, Heavenly Queen of the Shining Sun'
+            'Hinoka, Heavenly Queen of the Shining Sun',
             'Plumeria, Desire-Gratifying Nightmare'
         ]
     },
@@ -631,5 +631,154 @@ suggestions={
             'You may be able to increase your deck\'s consistency by using Skill 1, depending on how many Symbolless cards you run.',
             'Cards that want to have a certain number of allies will appreciate this card.'
         ] 
+    }
+}
+
+MCs={
+    'Dimitri':{
+        'deck':'Dimitri',
+        'promo':'Dimitri, Awakened Savior King, B21, 5(4)',
+        'author':'BanjoMW',
+        'explanation':'''Dimitri relies on having more orbs than your opponent to obtain his +1 draw OPT. This is helped by the fact that you have 2 options for a turn 2 bridge with 70 attack and Dedue 1 can further increase Dimitri’s attack just by living on the field. If you go first and bridge on turn 2 it is very likely that you will have more orbs by the time you bring in your main promo and can start drawing. However without orb advantage he can become a vanilla MC. The main Promo also gets to destroy a non-MC enemy when his attack destroys and orb. Timing your Byleth CP correctly can help massively to ensure Dimitri doesn’t get hit as often. Turn 5 onwards you can utilise Sothis and Dimitri’s CP’s to give him more actions per turn. Mercedes 5 will help you get units out to use for Dimitri’s CP, she will also buff Dimitri making it easier for him to hit. Dimitri can struggle against the opponent backlining their MC so you can run cards like Hapi and Seteth to get around this issue.''',
+        'staples':'''•    Dedue, Taciturn Devotee, B21, 1
+        •    Ashe, Arrow of Justice, B21, 3(2)
+        •    Mercedes, Benevolent Soul, B21, 5(3)
+        •    Hapi, Karma-Burdened Valkyrie, B21 4(3)
+        •    Byleth (Male), He who Bears the Flames Within, B18, 5(4)
+        •    Sothis, The Beginning, B19, 2'''
+    },
+    'Eldigan':{
+        'deck':'Eldigan(General)',
+        'promo':'Eldigan, Lion-Hearted Knight Lord',
+        'author':'Maj. Holy Blood',
+        'explanation': '''Best used as MC. Benefits from 80 base power. Can play 3 different variants: Frozen Knights (Combo), Swordbois (Aggro), and Capitalism (Late Game)
+
+Frozen Knights utilizes Eldigan's Cross Knight's, Move Out skill to create a powerful board through chained deployment skills. Requires careful planning and setup to be effective. Struggles against base 100 mcs. B19 Erinys 4, B17 Sigurd 4 are key.
+
+Swordbois focuses on an aggressive approach with cost 1 sword affinity units. Adding multiple units with "Hero Emblem" support skill increases your chance of rushing your opponent down to 0 orbs by turn 3. Your ideal turn 4 is B15 Leif 4. Turn 5 deploy Peony 3, and B12 Beowulf 4 for the finisher.
+
+Capitalism focuses on Eldigan's Darkness Cleaving Sacred Blade skill to escalated bond counts. This build focuses on flipping bonds for ally skills more than deploying horse units from bonds. Utilize Linoan 3 for consistency, and B17 Deirdre 4 for bond acceleration. B10 Leif 5, and B19 Julia 5 are key.''',
+        'staples':'''Miranda, Mage Princess (Frozen Knights)
+Lewyn, Resurrected Wind (Swordbois)
+Leif, Brave Realm-Saving, Woe-Allaying Prince (Capitalism) 
+'''
+    },
+    'Eldigan2':{
+        'deck':'Traditional Midrange Eldigan',
+        'promo':'Eldigan 5(4) B12',
+        'author':'Eidolon',
+        'explanation':'''Fairly straightforward aggressive midrange deck, you play your curve and beat people to death. The only slight complexity of this deck lies in managing your bonds to make sure you have strong turns after you promote. In the early stages of the game, you should bond Eldigans over anything else, with the only exception being against other aggressive decks where you bond some of the heavier cards in your hand in favor of maintaining tempo and field advantage. Depending on the deck you're facing, you can opt to bridge on turn 2(if they are more aggressive) or turn 3(if they are slower and you can output more damage on turn 2). As far as big cards go, you'll want to prioritize saving Ares over anything else that goes into bonds, as Ares provides a pull when bonded, which can very easily turn the tides for Eldigan. Sigurd ST+, if you run it, should be the lowest priority to keep on hand and the card you can most easily drop into bonds. Beowulf, usually considered a must run in previous sets, has fallen out of favor, but if you opt to run it, you should prioritize holding him, although not more than Ares.''',
+        'staples':'''-Ares 4(3) B12: Pull when bonded at a low hand, which happens quite often in Eldigan, double orb break and 90 attack. What's not to love about the Lionheart's son?
+-Lachesis 4(3) B12: Draw power, big numbers and range, yet another absolute staple of the deck, always max out on this.
+-Eldigan 3(2) B12: Very powerful bridge, very good card to bond, very good card to promote into, run 4 at all times.
+-Lewyn 0: You will see this motherfucker mentioned everytime there's a goddamn yellow main character in this bot for good reason. THAT BOI GOOD.'''
+    },
+    'Eliwood':{
+        'deck':'Eliwood, Knightly Heritor of a Legend\'s will',
+        'promo':'Eliwood, Knightly Heritor of a Legend\'s will',
+        'author':'Fallen Angel',
+        'explanation':'''Your gameplan for this deck is to have a lot of units on board at once, and use Eliwood's four skills to make full use of them, as most of his skills are not once per turn. 
+
+Early game, you want to attack your opponent with as many of your low costs as you can, and if any of them stick, you can use them for tap fodder later. Once you have your main promo, You can use his third skill to tap one of your lost costs that won't hit your opponent to break two orbs with Eliwood. You can use any of your units that your opponent backlined, or your low costs that won't hit, to activate his skill 4 to make your entire field +10, and this skill is not once per turn.
+
+Alternatively, if you opponent play a dangerous 1 range unit, you can use his skill 2 to push it to the backline so they can't just deploy another one next turn. You can use his skill 1 to deploy a Myrrh 1 on turn 3, if your opponent has not promoted to get an extra hit, or to deploy a low cost if you need more tap fodder.''',
+        'staples':'''Gerik, Almighty Mad Tiger is a great card in this deck, as it allowed you to deploy a manakete from your retreat, as well as making it a 70 base. Eliwood's skill 4 ensures that your entire board swings for at least 80 for a huge assault.
+
+Mirabilis is a great card as well, as it is a 0 cost and can be deployed on promo turn for a free skill 3 use for Eliwood, and on any other turn for any of Eliwood's skills.
+
+Other cards are purple staples, such as:
+Fae, Innocent Dragon Girl
+Myrrh, Girl of the Dragonkin
+Lilina, Wielder of Infernal and Shining Flames
+Lute, Matchless Prodigal Mage 
+'''
+    },
+    'Fir':{
+        'deck':'Fir',
+        'promo': 'Fir, Devotee of the Endless Path of the Sword, B21, 4(3)',
+        'author': 'BanjoMW',
+        'explanation':'''Fir has one of the strongest early games in cipher and is able to stabilize herself into the midgame because she gives an additional +10 when a unit is supported by a sword. This almost negates one of the biggest problem’s that swordmasters have in that they’re 10 supports meaning they have worse supports than most other cards in the game which can cause them to lose interactions because of their supports, now they tie on support essentially with most non flier decks thanks to fir. This can also make it easier for lowcost units such as Josh 1 and Al 1 to hit bigger opponents. These lowcosts can also be redeployed by Gerik 4 and will buff frontline as a result, further increasing the chances of units hitting. Another way to play Fir is that you can run high supports such as Green’s (mostly) Sword Fliers and Purple’s x supports to try to ensure she wins all combat interactions.''',        
+        'staples': 
+        '''•    Roy, Evil Star-Scorching Binding Flame, B22, 5(4)
+        •    Mirabilis, Elf of Daydreams, B22, 0
+        •    Matthew, Elegy for a Shadow, B13 4(3)
+        •    Eliwood, Blazing Knight of Valor, B13, 5(4)'''
+    },
+    'Hana':{
+        'deck': 'Hana',
+        'promo': 'B20-016SR Hana, Flawless Cherry Blossom',
+        'author': 'Basil',
+        'explanation': '''Hana is an aggressive-midrange flier MC that has a solid offense and defense, and very good consistency. 
+        By running mostly (or entirely) fliers, her first skill makes all supports 40 supports unless you self, meaning she and any other 60 attack flier attack and defend for 100.
+        Her second skill is used to shuffle useful cards back into the deck, which allows you to draw key cards and also avoid selfing on attacks.
+        Typically you want to be aggressive and target MC early and after you promo deploy multiple fliers a turn to keep pressure up, but can play for feild as well.
+        Her biggest weakness is her limited ability to hit the opponent's backline and being fairly vanilla, especially if the opponent hits 100 easily.
+        She can be run with a number of flier splashes, each one providing something that hana lacks due to her being mostly a buffer/consistency engine.
+        Red gives card draw and solid beaters, Blue gives some draw and utility, Black + Black/White gives destruction effects / pulls, and purple gives good 1 costs and some value.''',
+        'staples':''' -B15-071SR Hinoka, Heavenly Queen of the Shining Sun
+        -B20-019N Reina, Lady of the Palace Guard
+        -B02-049HN Emma, Kinshi Knight Fledgling'''
+    },
+    'Raven':{
+        'deck': 'Unquenched Flame of Vengeance',
+        'promo': 'Unquenched Flame of Vengeance (B21 4/3)',
+        'author': 'Hochweisse',
+        'explanation': '''Raven is a deck that focuses on critical hits from Raven himself to rush your opponent down. 
+
+When attacking the opponent's main character with Raven, using a critical hit triggers his 1st skill and forces them to destroy an orb, potentially double breaking orbs for that attack. Denying Raven orbs to stall him out is less-effective compared to some decks, as Raven can send an orb to retreat to draw 2 cards once per turn with his second skill. 
+
+Its recommended to play more aggressively with Raven, as he lacks long-term survivability. Running cards that can drag the opponent's Lord from the backline will prevent you from getting stalled out too easily. Running cards that fetch copies of Raven, like Lucius, will allow you to regain Ravens for surviving on the defence or keeping up his offensive.''',
+        'staples':'''- Lucius, Eliminean Monk (B21 Cost 2)
+- Priscilla, Secluded Valkyrie (B07 Cost 3/2)
+- Priscilla, Ever at my Lord Brother's Side... (B21 Cost 4/3)
+- Canas, Benighted Smile (B13 Cost 4/3)'''
+    },
+    'RobinF':{
+        'deck': 'Robin(Female)',
+        'promo': 'Robin(Female), Legendary Tactician,  B08, 4(3)',
+        'author':'Kokuusho',
+        'explanation': '''Robin(Female), aka frobin, is an mc who is all about making what you are doing consistent. She lets you plan around what orbs you take and gets you some free value by adding facedown bonds you want to orbs and orbs you want to your hand. She also has a draw 2 discard 2 to in a pinch. 
+She is mainly played with Dragon Emblems and Mae 3(4) overclass, where she lets you consistently get fast and multiple Mae overclasses to keep your opponent's board tapped down for multiple turns and lets you find crits for your units to kill your opponent. If you don't win during your Mae overclasses, you can wipe the board with rowan5(4) or hapi4(3). ''',
+        'staples':'''**Dragon Emblems and Fate Emblems:** 
+Choose 12-16: B08 Tiki 1, B08 Nah 1, B12 Nowi 1, B01 Nowi 1
+Choose 4-8: B08 Robin(f) 1, B08 Lucina 1, B08 Chrom 1, B14 Morgan(Male) 1
+These let you add more bonds to your bond area early so you can Mae overclass Faster. A good distribution is 4 Tiki1, 4 Nah 1, 4 B12 Nowi 1, 4 Robin(f) 1, 3 Lucina 1.
+ **Mae:** 
+B09 Mae 1, B16 Mae 1, B16 Mae 3(4), B18 Mercedes 4(3)
+Run max of all of these and 2-3 set 9 Mae4(3) for evades. You want to have 14-16 Mae to keep your mae on the board/ have another 2 Mae in your hand for another overclass. Mercedes 4(3) lets you grab more Mae or crits for your other units.
+ **Board Wipes:** 
+B22 Rowan 5(4), B21 Hapi4(3)
+Play these after you are out of Mae Overclasses to clear your opponents board. Rowan cleans everything if there are 4 or more Non-MC. Hapi clears 2 things if there are 3 or more Non-MC.  Run one or the other as a 2-3 of.'''
+    },
+    'Seliph':{
+        'deck':'Aggro Seliph',
+        'promo':'Seliph 5(4) B19',
+        'author':'Eidolon',
+        'explanation':'''This is about as simple as a deck gets in cipher, you play cards in your curve and ship all the damage to the other main character and hope they die before you run out of cards... Yes, it's that simple. The only few things worth noting, is that even though the B19 5(4) is your intended "final" promo, you don't want to promote on curve if you have low cost units to deploy during those turns. The first 3 turns of the game are the most important for this type of deck, because that's where you get the vast majority of your damage in, so your ideal curve should look like this:
+        -Turn 1: Beater.
+        -Turn 2: 2 Beaters.
+        -Turn 3: Bridge into 3(2) and deploy 1 beater.
+        It's important to play more beaters early, because they have better odds of hitting, around turn 3 is when most MCs promote into base 70s or 60s, so it's a good opportunity to level up your MC and play 1 more beater to maintain pressure.
+        Aside from that, there's a very slight resource management component in your Larcei bonds aka your way to cheat people out of games. You'll want to time your deirdre deploys to make sure you can flip those bonds face up or add another Larcei bond... yeah, that's it, that's all the complexity this deck has.''',
+        'staples':'''-Lewyn 0: FREE CARDS, YOU DON'T EXIST WITHOUT THIS CARD.
+-Larcei 4(3) B19: Flip 1 to crit, this is where your bond flipping goes. Sometimes you deploy this if you can crit with her in very late stages of the game but she's spending most of her time in bonds.
+-Deirdre 1 B06: You use this to catch any Larceis from retreat to cheat out more crits.
+-Seliph 3(2) B15: Really, really, and I mean, REALLY! good bridge. It lets you unflip Larcei, which if you read Deirdre, is a thing this deck wants to do.
+-Shannan 1: The premier swordboi of them all, absolutely do not leave deckbuilding if you don't have 4 of this fucker.
+-Arvis 1: Very cheap pull, and you kind of need those in a deck entirely focused on sometimes speedrunning your opponent with big cost 1s and 2s.'''
+    },
+    'Sigrun':{
+        'deck': 'Tempo Fliers Sigrun (fairies variation)',
+        'promo': 'Sigrun, Empire-Guarding Holy Wings',
+        'author': 'Eidolon',
+        'explanation':'''It's a midrange deck, meaning you aim to take control of the game or in some cases, finish it by turn 5. There's not really much of a secret to playing this deck's first few turns, you just play your curve aggressively to set yourself up to win by turn 5 or turn 6 by utilizing Ike and/or Caeda. Sigrun rewards playing your curve as it naturally fills the condition for her summoning skill as your opponent clears your low cost units, so there's really no reason to keep holding on to them. After you promote, your priority should be getting the floodgate fairies onto the field as they are very good tap fodder for Sigrun's skill, providing value even though they can't hit. You should be using Sigrun's tap for +20 most of the time, because this deck normally runs 12 to 16 Sigruns, so get ready for unpleasant Sigrun selfs. Once the fairies have hit the field, you can think about the matchup you're playing, if Plumeria can significantly hinder your opponent's deploys (such as against big purple), you can opt to playing a slower game by stablishing more field presence before just going for game with Ike and Caeda 5. If they aren't as limited by Plumeria or if they are a base 70 MC, you can just go face and force your opponent to find an out to your strong fields every turn.''',
+        'staples':'''-Maria 4(3): The flier deck staple, this card is broken and you are a dum dum if you don't put this in your deck;
+        -Caeda 5(4) Colorless: This is your finisher, this is usually what you'll be relying on to close out games;
+        -Haar 1: This card does just about everything Sigrun could want it to, it's good tap fodder, it provides movement on support and on field, and you can crit with it.
+        -Plumeria 2: This card hard presses top heavy decks to continuously remove her just so they can play the game, she also happens to be a 1-2 range, so she has additional utility by being able to crit from the backline when needed.
+        -Ike 4(3) B22: Your alternative to Caeda to end games. A bit harder to set up than Caeda, but he doubles as a removal tool. Being a 70 base in a flier deck is also an advantage.
+        Caeda 4(3) B13: Draws on non MC hit, provides extra tempo midturn and happens to be Caeda 5(4) evades, she's just extremely solid.
+        Mirabilis: Extremely useful in matchups where Zephiel exists, still good when he doesn't. Being a 0 cost colorless card is just a very nice tool for Sigrun to have, and while some may argue she's not a must have, there's very few cases where she hurts your deck for being there. '''
+
     }
 }

@@ -18,9 +18,13 @@ intents.members = True
 #client = discord.Client(intents=intents)
 bot = commands.Bot(command_prefix='0!',intents=intents)
 
-helpstring='Type 0!tips and then one of the following to generate advice. Note: This command is targeted at beginners.'
+helpstring='Type 0!tips and then one of the following to generate advice for splash cards. Note: This command is targeted at beginners.'
+helpstring2='Type 0!mc and then one of the following to generate advice for MCs. All of these entries have been submitted by members of the community.'
 for x,y in help.suggestions.items():
     helpstring+=f'\n{x}: {y["name"]}'
+for x,y in help.MCs.items():
+    helpstring2+=f'\n{x}: {y["deck"]}'
+
 
 @bot.event
 async def on_ready():
@@ -64,6 +68,19 @@ async def tips(ctx,card):
         await ctx.send(output)
     else:
         await ctx.send('This card hasn\'t been listed in this bot yet, but a member of Ciphercord will likely be able to help you')
+
+@bot.command(name='mc', help=helpstring2)
+async def tips(ctx,card):
+    print("MC Command Called")
+    if(card in help.MCs):
+        entry=help.MCs[card]
+        output=f'```Deck: {entry["deck"]}\n'
+        output+=f'Author: {entry["author"]}\n\n'
+        output+=f'{entry["explanation"]}\n\n'
+        output+=f'Staples:\n{entry["staples"]}```'
+        await ctx.send(output)
+    else:
+        await ctx.send('This deck hasn\'t been listed in this bot yet, but a member of Ciphercord will likely be able to help you.')
 
 
 
