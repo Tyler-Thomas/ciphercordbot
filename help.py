@@ -674,7 +674,7 @@ Leif, Brave Realm-Saving, Woe-Allaying Prince (Capitalism)
 -Lewyn 0: You will see this motherfucker mentioned everytime there's a goddamn yellow main character in this bot for good reason. THAT BOI GOOD.'''
     },
     'Eliwood':{
-        'deck':'Eliwood, Knightly Heritor of a Legend\'s will',
+        'deck':'Aggro Eliwood',
         'promo':'Eliwood, Knightly Heritor of a Legend\'s will',
         'author':'Fallen Angel',
         'explanation':'''Your gameplan for this deck is to have a lot of units on board at once, and use Eliwood's four skills to make full use of them, as most of his skills are not once per turn. 
@@ -720,7 +720,7 @@ Lute, Matchless Prodigal Mage
         -B02-049HN Emma, Kinshi Knight Fledgling'''
     },
     'Raven':{
-        'deck': 'Unquenched Flame of Vengeance',
+        'deck': 'Raven, Unquenched Flame of Vengeance',
         'promo': 'Unquenched Flame of Vengeance (B21 4/3)',
         'author': 'Hochweisse',
         'explanation': '''Raven is a deck that focuses on critical hits from Raven himself to rush your opponent down. 
