@@ -635,6 +635,18 @@ suggestions={
 }
 
 MCs={
+    'CorrinF1':{
+        'deck':'White Aggro Corrin (Female)',
+        'promo':'Corrin (Female), Alight B17',
+        'author':'Llamaboy',
+        'explanation':'''This Corrin's gameplan is pretty simple compared to other decks. The main function of the MC is to work as an engine to generate crits for your units by adding low costs from your retreat to your hand. The card also has great synergy with Oboro 4/3 because you can discard the 4/3 Oboro and grab the Oboro 1 that moves itself. Up until turn 4, you want to use this combination of cycle from Corrin and draw power from Oboro to generate a lot of crits for your smaller units and hit the opponent's MC. Ideally your finisher for the deck is using B20 Ryoma and B10 Corrin (Male) to flood your board and generate 3-5 attacks in one turn, which should hopefully kill your opponent.''',
+        'staples':'''- Oboro (Cost 1 from Set 14 and Cost 4 from Set 7), Oboro is a necessary component of this deck and most white aggro decks because she is your draw engine, as well as a phenomenal early game beat stick.
+- Kana (Female) (Cost 1 from Set 2), Dragonkin emblem is a super strong effect, especially in a deck that has a powerful play once they hit 5 bonds. Important for the highroll potential and is a good attacker later on as a 1 cost 60 base
+- Any combination of white archers with attack emblem (Such as Kiragi 1 from Set 3, Setsuna 1 from Set 2, and Takumi 1 from Set 2), Lets your units hit more consistently with a huge 40 support on your turn, and since your deck generates crits easily these also serve as long range beat sticks. 
+- Ryoma (Cost 5 from Set 20), enables strong tempo plays in tandem with Corrin (Male), also gives you draw power and can hit big numbers
+- Corrin (Male) (Cost 6 from Set 10), generates value off bond grab, can summon up to 3 low costs that you can use to hit your opponent with crits. 
+'''
+    },
     'Dimitri':{
         'deck':'Dimitri',
         'promo':'Dimitri, Awakened Savior King, B21, 5(4)',
