@@ -75,6 +75,7 @@ async def tips(ctx,card):
     if(card in help.MCs):
         entry=help.MCs[card]
         output=f'```Deck: {entry["deck"]}\n'
+        output+=f'Intended Final Promo: {entry["promo"]}\n'
         output+=f'Author: {entry["author"]}\n\n'
         output+=f'{entry["explanation"]}\n\n'
         output+=f'Staples:\n{entry["staples"]}```'
