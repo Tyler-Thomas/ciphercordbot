@@ -719,19 +719,43 @@ Lute, Matchless Prodigal Mage
 -B20-019N Reina, Lady of the Palace Guard
 -B02-049HN Emma, Kinshi Knight Fledgling'''
     },
+    'Inigo':{
+        'deck':'Inigo',
+        'promo':'Inigo, Floral Scented Dancing Sword',
+        'author':'Chisaku',
+        'explanation':'''Inigo is a deck that revolves around generating swings off of female allies who become unavoidable after his buff. Neither skills are once per turn, leading to allies that can untap themselves dancing Inigo while controlling how big your opponent's board can be. Make sure nothing on their board sticks, while not worrying about if any of your units stick because even a single untapper can generate 4 attacks in a single turn. Your early game is mainly focused on hitting Dragonkin Emblems to ramp yourself into as big of a lead as you can to outpace your opponent and stay ahead by killing their board.''',
+        'staples': '''Nah, Serious Manakete - Your bread n butter turn 1 play. If you hit a Dragonkin Emblem with Nah swinging first, you draw1/stack another Dragonkin Emblem for Inigo to hit and suddenly you untap turn 2 for 4 bonds.
+Tiki, Sleeping Princess of Ancient Times - 1-2 Range who +20s after untapping, a good option for late game beatsticking
+Nowi, Long-Lived Little Dragon - Same as Tiki but +10 when she's in the frontline which is more consistent for dropping from hand
+Cordelia 4(3), Prodigial Knight on Swooping Black Wings - Flip 1 for 1-2 range and +10, untaps herself if moved which she has a Flip 1 to do so. See also: Marianne 3(2) Tranquil Heart Taking Flight
+Peony, Sweet Dream-Bringing Lass - Helps boost Inigo's unfortunately low base attack of 70 in the current meta.
+
+See also:
+Leonie 4(2), The Blade Breaker II
+Sothis, The Beginning
+Edelgard 5(4), She Who Bares Her Fangs at the Gods
+Larcei 4(3), Sky-Dancing Astra'''
+    },
     'Raven':{
         'deck': 'Raven, Unquenched Flame of Vengeance',
         'promo': 'Unquenched Flame of Vengeance (B21 4/3)',
         'author': 'Hochweisse',
         'explanation': '''Raven is a deck that focuses on critical hits from Raven himself to rush your opponent down. 
 
-When attacking the opponent's main character with Raven, using a critical hit triggers his 1st skill and forces them to destroy an orb, potentially double breaking orbs for that attack. Denying Raven orbs to stall him out is less-effective compared to some decks, as Raven can send an orb to retreat to draw 2 cards once per turn with his second skill. 
+When attacking the opponent's main character with Raven, using a critical hit forces them to destroy an orb, potentially double breaking orbs for that attack. Walling Raven out by denying him orbs to stall him out is also less-effective as Raven can send an orb to retreat to draw 2 cards once per turn with his second skill. 
 
-Its recommended to play more aggressively with Raven, as he lacks long-term survivability. Running cards that can drag the opponent's Lord from the backline will prevent you from getting stalled out too easily. Running cards that fetch copies of Raven, like Lucius, will allow you to regain Ravens for surviving on the defence or keeping up his offensive.''',
-        'staples':'''- Lucius, Eliminean Monk (B21 Cost 2)
-- Priscilla, Secluded Valkyrie (B07 Cost 3/2)
-- Priscilla, Ever at my Lord Brother's Side... (B21 Cost 4/3)
-- Canas, Benighted Smile (B13 Cost 4/3)'''
+Its recommended to play more aggressively with Raven, as he lacks long-term survivability. Running cards that can drag the opponent's Lord from the backline, such as Eliwood (B07 4/3) will prevent you from getting stalled out by a big frontline.
+
+Cards that fetch copies of Raven, like Lucius, will allow you to regain Ravens for surviving on the defence or keeping up his offensive. Canas also allows you to stack your Priscillas/other Purple tomes for increased pressure.''',
+        'staples':'''- Lucius, Eliminean Monk (B21 Cost 2) allows you to prevent non-MC crits on your MC, while also serving to heal Raven Copies.
+
+- Priscilla, Secluded Valkyrie (B07 Cost 3/2) is a defensive support that completely negates the enemy's attack if supporting Raven.
+
+- Priscilla, Ever at my Lord Brother's Side... (B21 Cost 4/3) is an attack support that draws you 1 upon supporting her when attacking with Raven. As a deployed unit, she can Flip 1 to fetch a 1 cost from retreat to enable either Raven or your other cards.
+
+- Canas, Benighted Smile (B13 Cost 4/3) allows you to stack tomes as you'd like, which opens up techs like Dark Emblems and Lilina 5 for increased pressure.
+
+- Eliwood, Knight of Lycia (B07 Cost 4/3) lets you stack a card to move an enemy from backline, useful for chasing opponents who tap move back.'''
     },
     'RobinF':{
         'deck': 'Robin(Female)',
