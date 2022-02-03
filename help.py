@@ -678,7 +678,7 @@ Leif, Brave Realm-Saving, Woe-Allaying Prince (Capitalism)
     'Eldigan2':{
         'deck':'Traditional Midrange Eldigan',
         'promo':'Eldigan 5(4) B12',
-        'author':'Eidolon',
+        'author':'Aku',
         'explanation':'''Fairly straightforward aggressive midrange deck, you play your curve and beat people to death. The only slight complexity of this deck lies in managing your bonds to make sure you have strong turns after you promote. In the early stages of the game, you should bond Eldigans over anything else, with the only exception being against other aggressive decks where you bond some of the heavier cards in your hand in favor of maintaining tempo and field advantage. Depending on the deck you're facing, you can opt to bridge on turn 2(if they are more aggressive) or turn 3(if they are slower and you can output more damage on turn 2). As far as big cards go, you'll want to prioritize saving Ares over anything else that goes into bonds, as Ares provides a pull when bonded, which can very easily turn the tides for Eldigan. Sigurd ST+, if you run it, should be the lowest priority to keep on hand and the card you can most easily drop into bonds. Beowulf, usually considered a must run in previous sets, has fallen out of favor, but if you opt to run it, you should prioritize holding him, although not more than Ares.''',
         'staples':'''-Ares 4(3) B12: Pull when bonded at a low hand, which happens quite often in Eldigan, double orb break and 90 attack. What's not to love about the Lionheart's son?
 -Lachesis 4(3) B12: Draw power, big numbers and range, yet another absolute staple of the deck, always max out on this.
@@ -748,6 +748,27 @@ Sothis, The Beginning
 Edelgard 5(4), She Who Bares Her Fangs at the Gods
 Larcei 4(3), Sky-Dancing Astra'''
     },
+    'Nino':{
+        'deck': 'Nino',
+        'promo': 'Nino, Pious Mage B07-039SR',
+        'author': 'Basil',
+        'explanation':'''Nino is a mage MC that uses her ability to stack cards on top of the deck to either draw a lot of cards or deploy from the top of deck using other cards.
+Her first skill lets you put a card from hand on top of the deck to get a dodge back from retreat, so your hand stays the same size when you stack and you get a "free" dodge.
+Skill two lets you flip a bond to draw a card when another ally is supported by a Nino- so in conjunction with skill 1, you can stack a dodge on top of deck, get a dodge back from retreat, then attack with something else and flip 1 to draw.
+She also can rig support skills such as Lilina for free draws, darkness emblems to make the opponent discard, or even X supports to make sure an attack hits.
+Being a 60 attack MC can be rough, but because you are able to get dodges back for free, she can be surprisingly hard to kill, so leaving her in the front and backlining other mages is a viable option.
+However, even though she can dodge, critting is less recommended unless you know you can kill- so she tends to rely on Peony to hit.
+There are two main versions of Nino- Mono Purple, where you run cards like Canas, Lute, and Lilina to draw a lot of cards and use their range to control the board.
+And Brown- You include tempo cards like Hilda, Byleth F, and Eliwood X to get multiple deploys a turn. You also typically run more high supports, meaning Nino is less reliant on buffs.''',
+        'staples':'''Key Cards (Mono Purple):
+Canas, Benighted Smile B13-022SR
+Lilina, Wielder of the Infernal and Shining Flames B16-004SR
+Lute, Matchless Prodigal Mage B11-016SR
+Key Cards (Brown):
+Eliwood, Heroic Inheritor of the Blaze B07-001SR
+Byleth (Female), Hearer of the Goddess's Voice B21-101HR
+Hilda (Fodlan), Soaring Free Spirit B21-027SR'''
+    },
     'Raven':{
         'deck': 'Raven, Unquenched Flame of Vengeance',
         'promo': 'Unquenched Flame of Vengeance (B21 4/3)',
@@ -789,7 +810,7 @@ Play these after you are out of Mae Overclasses to clear your opponents board. R
     'Seliph':{
         'deck':'Aggro Seliph',
         'promo':'Seliph 5(4) B19',
-        'author':'Eidolon',
+        'author':'Aku',
         'explanation':'''This is about as simple as a deck gets in cipher, you play cards in your curve and ship all the damage to the other main character and hope they die before you run out of cards... Yes, it's that simple. The only few things worth noting, is that even though the B19 5(4) is your intended "final" promo, you don't want to promote on curve if you have low cost units to deploy during those turns. The first 3 turns of the game are the most important for this type of deck, because that's where you get the vast majority of your damage in, so your ideal curve should look like this:
         -Turn 1: Beater.
         -Turn 2: 2 Beaters.
@@ -806,7 +827,7 @@ Play these after you are out of Mae Overclasses to clear your opponents board. R
     'Sigrun':{
         'deck': 'Tempo Fliers Sigrun (fairies variation)',
         'promo': 'Sigrun, Empire-Guarding Holy Wings',
-        'author': 'Eidolon',
+        'author': 'Aku',
         'explanation':'''It's a midrange deck, meaning you aim to take control of the game or in some cases, finish it by turn 5. There's not really much of a secret to playing this deck's first few turns, you just play your curve aggressively to set yourself up to win by turn 5 or turn 6 by utilizing Ike and/or Caeda. Sigrun rewards playing your curve as it naturally fills the condition for her summoning skill as your opponent clears your low cost units, so there's really no reason to keep holding on to them. After you promote, your priority should be getting the floodgate fairies onto the field as they are very good tap fodder for Sigrun's skill, providing value even though they can't hit. You should be using Sigrun's tap for +20 most of the time, because this deck normally runs 12 to 16 Sigruns, so get ready for unpleasant Sigrun selfs. Once the fairies have hit the field, you can think about the matchup you're playing, if Plumeria can significantly hinder your opponent's deploys (such as against big purple), you can opt to playing a slower game by stablishing more field presence before just going for game with Ike and Caeda 5. If they aren't as limited by Plumeria or if they are a base 70 MC, you can just go face and force your opponent to find an out to your strong fields every turn.''',
         'staples':'''-Maria 4(3): The flier deck staple, this card is broken and you are a dum dum if you don't put this in your deck;
 -Caeda 5(4) Colorless: This is your finisher, this is usually what you'll be relying on to close out games;
