@@ -748,6 +748,34 @@ Sothis, The Beginning
 Edelgard 5(4), She Who Bares Her Fangs at the Gods
 Larcei 4(3), Sky-Dancing Astra'''
     },
+    'Lon\'qu':{
+        'deck':'Lon\'qu (Risen Variant)',
+        'promo':'Lon\'qu, Solitary Blade',
+        'author':'Retrop',
+        'explanation':'''Often referred as "Risenqu," this is a deck that has lost every winning matchup that it used to have.  As a result, this deck should only be seriously considered for tourney play in legacy or tier 3 formats that operate on lower power levels.  If you like Lon'qu and really want to play him in a regular tourney, just play the standard build and you'll probably find some success with it while having fun.  If you still want to play this variant in serious play in the modern-day format, this is hell you're walking into.
+
+Your gameplan is simple: build an army of Sword Risen to power Lon'qu's first skill and become big enough to shrug off any attack.  Lon'qu should always be swinging at your opponent's main character, unless they have a dangerous unit on board that can threaten your backline.  If your opponent has lost enough orbs, activate Killing Edge and chain it with Shannan 3/2's bond skill to get multiple unavoidable attacks and win the game.
+Important Interactions:
+* Unless you really need to hit a backline low-attack enemy with Grima, every single unit you deploy should go on the backline and supply Lon'qu with buffs (or in Frederick 4(3)'s case, crit protection).
+* Because your support base sucks, you'll have to rely on Chrom's +70 buff to allies in order to hit any important enemy.
+* If you have 3 or fewer risen in the retreat, save Grima's ACT skill after you do all intended attacks for the turn so that you can potentially pull a Despair Emblem and summon extra Risen.
+* Watch for Deck Reset.
+
+This deck loses to:
+* Anything with more than 1 ranged unit (most modern-day decks)
+* Anything with a consistently high attack value to punch through your defense (Tempo Fliers)
+* Turn 5 Combo Decks set up faster than you can stabilize
+* Emergency board wipes can and will kill you (Yune)
+
+If you haven't noticed, that's pretty much every deck in the game now.  Good luck!''',
+        'staples':'''Staples:
+* 14 Sword Risen (more is acceptable, but never fewer)
+* 4 Risen Chief 3/2
+* 4 Grima 4
+* 4 Risen King Chrom
+* 4 Shannan 3/2
+* 4 B08 Frederick 4/3'''
+    },
     'Nino':{
         'deck': 'Nino',
         'promo': 'Nino, Pious Mage B07-039SR',
