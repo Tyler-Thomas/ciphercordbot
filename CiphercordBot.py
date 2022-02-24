@@ -95,7 +95,8 @@ For some help with playing cipher or deck building advice you can ask in:
 general/ <#194169331091767296>/<#454116320380715019> 
 or direct attention to people with the @ I\'m being helpful role.
 We mainly use LackeyCCG on this server and all resources can be found in <#333965218482880513>.
-If you're here to collect, you can find help in <#343299107554590722>. '''
+If you're here to collect, you can find help in <#343299107554590722>.
+Come say hello in <#946426335809646622>. We'd love to hear from you! '''
     )
 
 @bot.event
