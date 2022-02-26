@@ -635,6 +635,26 @@ suggestions={
 }
 
 MCs={
+    'Asugi':{
+        'deck':'Asugi',
+        'promo':'B10 4(3) Asugi, Saizo VI',
+        'author':'awesomesauce',
+        'explanation':'''Description: Asugi is more or less another run-of-the-mill Ninja MC, as they all tend to function the same way. Your game plan is to build up your backline by summoning 1 cost ninjas off of Ninjutsu Emblem, then utilizing B17 Kaze 4(3) and B07 Kagero 3(2) to consistently crit with all of your units (more about Kaze and Kagero in the Staples section). What sets Asugi apart from Kaze and Kagero MC is his ability to buff himself for free, as well as using his Skill 1 to draw once per turn off of another knife ally’s deployment. This helps him keep up with consistency and cycling. However, his Skill 1 is also to his detriment, as it tends to restrict his deck to knives only as compared to Kaze and Kagero who can freely run other white units like Ryoma. Luckily, Black and White as a color has access to pretty good knife options, so don’t be afraid to splash Black instead of running Mono-White. Another weakness of his is that he requires more setup due to him needing to get both Kaze and Kagero out in order for crit consistency, as compared to running either Kaze or Kagero as MC. 
+
+Curve: Spend the first few turns trying to build up your backline with 1 costs, or alternatively bridge on turn 2. Promote on turn 3. Get Kagero 3(2) out on turn 4, hide her in the backline, potentially start critting if you have the right cards. Get Kaze 4(3) out on 5, start crit spamming with all of your allies. ''',
+        'staples':'''B07 Kagero 3(2): This card allows you to draw a card off of another knife ally’s critical hit. This means that the ally critting doesn’t have to land the hit in order for you to draw. Kagero allows you to basically crit for free, as you can cycle a card off of a crit. Park her in the backline, as she cannot be attacked if a knife ally is in the front line. Dies to destruction and cards that can pull allies.
+
+B17 Kaze 4(3): This card allows you to use any 1 cost card in your hand to crit, instead of using a copy of another card to do so. Also grants you an on-hit draw once per turn, which can grant more opportunities to crit by cycling. Very susceptible to death, as he is a squish 60 base card that will likely survive for only 1 turn unless you have the evades, and tends to be the priority clear target. Make sure you get him out after you have Kagero for perfect curving. If you have nothing better to play, Kaze can be equally potent on his own.
+
+Any card with Ninjutsu Emblem, notably B07 Saizo and Kagero 1, B03 Elise 1. Saizo and Kagero can deploy each other off either one’s Ninjutsu Emblem, and Elise is a Ninjutsu untap at the cost of breaking your own orbs. Elise tends to be very risk-reward.
+
+Techs:
+B03 Flora 4(3): Survivability tool that procs Asugi’s Skill 1 to draw him a card on your opponent’s turn. Flip 2 bonds to use this card to redirect an attack and blow up an opposing card with a deployment cost of 2 or lower on death. Usable once per game, time it correctly. Because it's a redirect, you can use this card to save yourself from an unavoidable attack.
+
+B17 Elise 3(2): Consistency tool who flips 1 to heal any card with the same color as your MC (which in this case is any white card).
+
+B07 Yukimura 3(2): Draws a card on another knife ally’s death by an attack and can peek at an orb at the end of your turn. Not as recommended as compared to the other two listed above.'''
+    },
     'CorrinF1':{
         'deck':'White Aggro Corrin (Female)',
         'promo':'Corrin (Female), Alight B17',
@@ -644,8 +664,7 @@ MCs={
 - Kana (Female) (Cost 1 from Set 2), Dragonkin emblem is a super strong effect, especially in a deck that has a powerful play once they hit 5 bonds. Important for the highroll potential and is a good attacker later on as a 1 cost 60 base
 - Any combination of white archers with attack emblem (Such as Kiragi 1 from Set 3, Setsuna 1 from Set 2, and Takumi 1 from Set 2), Lets your units hit more consistently with a huge 40 support on your turn, and since your deck generates crits easily these also serve as long range beat sticks. 
 - Ryoma (Cost 5 from Set 20), enables strong tempo plays in tandem with Corrin (Male), also gives you draw power and can hit big numbers
-- Corrin (Male) (Cost 6 from Set 10), generates value off bond grab, can summon up to 3 low costs that you can use to hit your opponent with crits. 
-'''
+- Corrin (Male) (Cost 6 from Set 10), generates value off bond grab, can summon up to 3 low costs that you can use to hit your opponent with crits. '''
     },
     'Dimitri':{
         'deck':'Dimitri',
@@ -672,8 +691,7 @@ Swordbois focuses on an aggressive approach with cost 1 sword affinity units. Ad
 Capitalism focuses on Eldigan's Darkness Cleaving Sacred Blade skill to escalated bond counts. This build focuses on flipping bonds for ally skills more than deploying horse units from bonds. Utilize Linoan 3 for consistency, and B17 Deirdre 4 for bond acceleration. B10 Leif 5, and B19 Julia 5 are key.''',
         'staples':'''Miranda, Mage Princess (Frozen Knights)
 Lewyn, Resurrected Wind (Swordbois)
-Leif, Brave Realm-Saving, Woe-Allaying Prince (Capitalism) 
-'''
+Leif, Brave Realm-Saving, Woe-Allaying Prince (Capitalism) '''
     },
     'Eldigan2':{
         'deck':'Traditional Midrange Eldigan',
@@ -702,8 +720,7 @@ Other cards are purple staples, such as:
 Fae, Innocent Dragon Girl
 Myrrh, Girl of the Dragonkin
 Lilina, Wielder of Infernal and Shining Flames
-Lute, Matchless Prodigal Mage 
-'''
+Lute, Matchless Prodigal Mage '''
     },
     'Fir':{
         'deck':'Fir',
@@ -776,6 +793,24 @@ If you haven't noticed, that's pretty much every deck in the game now.  Good luc
 * 4 Shannan 3/2
 * 4 B08 Frederick 4/3'''
     },
+    'Micaiah':{
+        'deck':'Micaiah 22',
+        'promo':'Micaiah, Priestess Shrouded in Dawn\'s Light B22-009SR',
+        'author':'Basil',
+        'explanation':'''Micaiah is a mage MC that can get card draw and swing for big numbers for the low low price of basically free.
+Her first skill growths her to give her +30 atk for the turn, meaning she can swing for 90 + support with range- very good for controling the board or hitting tankier MCs.
+Her second skill is what really makes her work though- every time she is growthed, if you have 4 or fewer cards in hand, she gets to draw a card.
+With the two skills in mind, it's pretty easy to see how the deck is built- you need a low hand size and micaiah's in the retreat to be able to grow, so you run a lot of Micaiahs.
+Having a lot of micaiahs lets her evade early to get to a low hand size and puts micaiahs in the retreat to growth. You can run low cost mill cards like Ashunera or Elincia 1 cost to help with this as well.
+Because neither of her skills require bond flips, she can run bond-heavy support cards like Jill and Kurthnaga, and often replays them multiple times since she draws through her deck so quickly.
+She is, however, still a mage MC on defense, so she can potentially be beaten down by aggro/tempo decks that hit a lot (she also tends to self a lot, so she can be hit by 1 costs).
+She does have a few low cost buffers, however, in Sothe and Mist, each one giving her +10 on both turns, potentially making her 80 atk.''',
+        'staples':'''Key Cards:
+Jill B09-097SR
+Kurthnaga B16-081SR
+Ilyana B14-097SR
+Soren B17-065SR'''
+    },
     'Nino':{
         'deck': 'Nino',
         'promo': 'Nino, Pious Mage B07-039SR',
@@ -796,6 +831,18 @@ Key Cards (Brown):
 Eliwood, Heroic Inheritor of the Blaze B07-001SR
 Byleth (Female), Hearer of the Goddess's Voice B21-101HR
 Hilda (Fodlan), Soaring Free Spirit B21-027SR'''
+    },
+    'Oboro':{
+        'deck': 'Oboro',
+        'promo':'Oboro, Stunning Spear Maiden, B07, 4(3)',
+        'author':'BanjoMW',
+        'explanation':'''Oboro has been one of the best MC’s in the game since the release of her 1 cost in B14. This card allowed Oboro to consistently be able to class change regardless of the field state, provided you have the bonds for it. Oboro has the advantage over other MC’s of being able to class change herself from the retreat area which potentially gives her the use of another evade early on which is why some decks tend to prefer not hit Oboro early to prvent an early promotion Once you have promo in your retreat Oboro essentially becomes Flip 1 to move Oboro and draw 1 card, (stays promoted) if she has not yet been tapped this turn. This sequence is not limited to Once Per Turn meaning Oboro can outdraw most decks. 
+ The best way to play Oboro is to aggro your opponent since u will be outdrawing them once main promo is out. This will also allow her to restabilize if aggro plays don’t kill your opponent. Within Oboro you don’t really want to be running any non White cards as they can end up stuck in your hand since they don't allow Oboro to reclass change as Oboro requires White bonds to do that.''',
+        'staples':''' 8-12 Attack Emblem Archers – These will be your main source of aggression in the early game as you try to get a copy of Main Promo into your retreat area. These will also buff Oboro due to Oboro’s Main Promo gaining +10 attack when a bow is on field
+•    Ryoma, Brave King of Dawn Walking with the Dusk, B20 5(4) – This card can tap an ally to deploy another <White> ally which synergises well with Oboro as well as encouraging a more aggressive playstyle since Ryoma can help regain a big hand when your hand is 3 or lower since Ryoma will draw 1 card after his attack, this can be timed with Oboro’s draws to be optimised.
+•    Corrin (Male), Divine Son of the Dazzling Dawn Dragon, B10, 6(5) – The amount of lowcosts you have in the deck allows Corrin to deploy multiple units in one turn which can be a problem for your opponent since they would spend a lot of their resources to clear stuff before Corrin is deployed, Also buffs field if 2 or more face-up bonds which can be timed well with oboro to hit as hard as possible on as many attacks as possible
+•    Kaze, Faithful Verdancy, B17, 4(3) – Gives many more options to crit opponent which can be valuable if your opponent choses to buff themselves to a higher attack value than your units. Also gives greater attack power to lowcosts that have potentially been able to stay on the field from the earlygame.
+•    Takumi, Prince of Brilliant Winds, B07, 4(3) – Similar to Ryoma, Takumi has a method to deploy other units however it is limited to bows and you need an orb to do so, these conditions are fairly easy to meet due to the amount of bow units oboro runs and the fact that people don’t like to aggro her down, however his best use in Oboro is to stop opposing MC’s from running away. This allows you to put further pressure on opposing MC’s'''
     },
     'Raven':{
         'deck': 'Raven, Unquenched Flame of Vengeance',
@@ -834,6 +881,39 @@ Run max of all of these and 2-3 set 9 Mae4(3) for evades. You want to have 14-16
  **Board Wipes:** 
 B22 Rowan 5(4), B21 Hapi4(3)
 Play these after you are out of Mae Overclasses to clear your opponents board. Rowan cleans everything if there are 4 or more Non-MC. Hapi clears 2 things if there are 3 or more Non-MC.  Run one or the other as a 2-3 of.'''
+    },
+    'Roy':{
+        'deck':'LIS Roy',
+        'promo':'Roy, Forger of a Future between Humans and Dragons',
+        'author':'Maj. HolyBlood',
+        'explanation':'''Combo deck. Benefits from an explosive game ending turn, with little necessary set up. For an aggressive approach, use Roy, Heir to House Pherae, as your starting MC. For consistency, use Roy, General of the Lycian League, as your starting MC. 
+
+You want a good mix of range cost 1s, and units with the Legendary Item Skill (LIS). Canas 1/Raigh 1/Sophia 1 for disruption, Lute 1 for consistency, Myrrh 1/Fae 1 for accelerated endgame.
+
+Use Roy, Forger of a Future between Humans and Dragons, to deploy powerful units from the top of your deck. You improve consistency with powerful cards like Nino, Pious Mage, Sue, Swift Winds-wielding Plainscharger, and Guinivere, Supreme Light-Casting World-Illuminator. These cards can attack powerfully, increase your board's attack, and keep you alive.
+
+Your finishing combo is having Sue, or Guinivere on the field with 1 additional non-mc unit so you can summon Rutger, Blaze-Wreathed Evilcleaver, to finish the game. Rutger's powerful untap skill restands all your LIS units to attack again, but make sure you can meet the requirements before committing to the kill. You may only get one shot, so make it count!''',
+        'staples':'''See also:
+Wolt, Archer of Pherae (Early game)
+Ninian, Dragon Girl of Destiny (Can change the game state in your favor)
+Roy, Evil Star-Scorching Binding Flame (Consistency boost for late game combo)'''
+    },
+    'Sanaki':{
+        'deck':'Sanaki (Mono-Green)',
+        'promo':'Sanaki, Hailed as the Holy Empress B16-056SR',
+        'author':'Basil',
+        'explanation':'''Sanaki is a slow/midrange MC that does not play much in the early game, then plays multiple high cost units a turn.
+Her first skill, "A New World", defines the deck- by restarting the turn after the deploy phase, the player gets another draw, another bond, and the ability to deploy again.
+Since the skill is both ramp and tempo, it allows her to play many more high cost units than other decks, and a few unique ones such as Zelgius.
+Her second skill is useful as well- discarding 2 to draw 2 is nice cycle and gives her the ability to hit the opponent's backline. 
+Because of her extra draw from new world, her ability to cycle, and her ability to run high cost value cards such as Tormod and Micaiah, she can be very consistent.
+She does have a few key weaknesses- the obvious one is that New World forces her to stay in green for the most part, and if the opponent is running Veronica 22, then the skill becomes unusable.
+So also is very weak to start- her typical 1 cost 30 atk 1 cost that can't attack, so she is very reliant on getting a bridge to not die in the early game, and going second hurts her more than most.''',
+        'staples':'''Key Cards:
+Kurthnaga B16-081SR
+Soren B17-065SR
+Tormod B16-073R
+Zelgius B16-084R'''
     },
     'Seliph':{
         'deck':'Aggro Seliph',
