@@ -844,6 +844,24 @@ Hilda (Fodlan), Soaring Free Spirit B21-027SR'''
 •    Kaze, Faithful Verdancy, B17, 4(3) – Gives many more options to crit opponent which can be valuable if your opponent choses to buff themselves to a higher attack value than your units. Also gives greater attack power to lowcosts that have potentially been able to stay on the field from the earlygame.
 •    Takumi, Prince of Brilliant Winds, B07, 4(3) – Similar to Ryoma, Takumi has a method to deploy other units however it is limited to bows and you need an orb to do so, these conditions are fairly easy to meet due to the amount of bow units oboro runs and the fact that people don’t like to aggro her down, however his best use in Oboro is to stop opposing MC’s from running away. This allows you to put further pressure on opposing MC’s'''
     },
+    'Owain':{
+        'deck':'Owain',
+        'promo':'Owain, Chosen Warrior of Hope, B01, 4(3)',
+        'author':'Jinpluff',
+        'explanation':'''Owain is a funny gimmick combo deck. His promotion allows him to always double break while allowing him to buff himself to absurd amount of power. You spend the first turns promoting and building your combo by stacking shannan BS in your bonds so you can make a big push before dying.
+On the combo turn, you will pull your opponent's MC if necessary, buff owain with the other units, then double his power. On the perfect curves, owain hill attack 5 times. Witch is in most cases enought to kill your opponent or finish him with another unit.''',
+        'staples':'''Staples:
+- Shannan, Isaachian Swordmaster, B08 3(2) -  They are your main combo tool. Alloying Owain to untap without having to deploy a dancer. The big drawback is the attacking unit losing 30 atk each time. But you can easilly make owain strong enough for it not to be an issue.
+- Deirdre, Maiden of the Spirit Forest, B06 1 - This card allows you to swap the bond of your choice with any card in your retreat area. Making stacking shannan in your bonds more consistent.
+- Arvis, Head of House Velthomer, B06 1 - Arvis have one of the most efficient pull in the game. He is cheap to deploy and can pull your opponent's MC without spending valuables ressources.
+- Sigurd, A Soul Who Lived for Love, B19 0 and Sigurd, Holy Honor-Imparting Knight, B22 5(4) promoting combo - Promoting sigurd 5(4) on top of his cost 0 allows you to class change him on turn 4. By doing it, you will add a bond from your retreat for free. He has also the great power of buffing a unit for 30 until the end of your opponent's turn by flipping a "Sigurd" or "Seliph" bond. This buff can be doubled by Owain first skill afterwards.
+
+Techs:
+
+- Lewyn, Resurrected Wind, B19 0 - This card helps you to get more cards in your retreat and/or to deploy low cost yellow unit without destroying your hand. The fact that stacked cards goes in your retreat at the end of the turn is a bit annoying tho.
+- Ares, Nostalgic Black Prince, B12 4(3) - Ares is both an additionnal double-break attack that can be bast 90 and a pulling tech is your hand is low enough. Having 3 face up bonds for the double break effect is pretty simple, but the +20 and the bond skill requirements are more situationnal.
+- Julia, The God of Light's Descendant, B08 4(3) - Another tool that helps you putting the right cards in your bonds, but have a destroying requirement that can easilly be avoided by your opponent.'''
+    },
     'Raven':{
         'deck': 'Raven, Unquenched Flame of Vengeance',
         'promo': 'Unquenched Flame of Vengeance (B21 4/3)',
