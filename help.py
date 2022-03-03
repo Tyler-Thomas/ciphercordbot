@@ -638,7 +638,7 @@ MCs={
     'Asugi':{
         'deck':'Asugi',
         'promo':'B10 4(3) Asugi, Saizo VI',
-        'author':'awesomesauce',
+        'author':'awesome_sauce',
         'explanation':'''Description: Asugi is more or less another run-of-the-mill Ninja MC, as they all tend to function the same way. Your game plan is to build up your backline by summoning 1 cost ninjas off of Ninjutsu Emblem, then utilizing B17 Kaze 4(3) and B07 Kagero 3(2) to consistently crit with all of your units (more about Kaze and Kagero in the Staples section). What sets Asugi apart from Kaze and Kagero MC is his ability to buff himself for free, as well as using his Skill 1 to draw once per turn off of another knife ally’s deployment. This helps him keep up with consistency and cycling. However, his Skill 1 is also to his detriment, as it tends to restrict his deck to knives only as compared to Kaze and Kagero who can freely run other white units like Ryoma. Luckily, Black and White as a color has access to pretty good knife options, so don’t be afraid to splash Black instead of running Mono-White. Another weakness of his is that he requires more setup due to him needing to get both Kaze and Kagero out in order for crit consistency, as compared to running either Kaze or Kagero as MC. 
 
 Curve: Spend the first few turns trying to build up your backline with 1 costs, or alternatively bridge on turn 2. Promote on turn 3. Get Kagero 3(2) out on turn 4, hide her in the backline, potentially start critting if you have the right cards. Get Kaze 4(3) out on 5, start crit spamming with all of your allies. ''',
@@ -963,5 +963,29 @@ Zelgius B16-084R'''
 -Caeda 4(3) B13: Draws on non MC hit, provides extra tempo midturn and happens to be Caeda 5(4) evades, she's just extremely solid.
 -Mirabilis: Extremely useful in matchups where Zephiel exists, still good when he doesn't. Being a 0 cost colorless card is just a very nice tool for Sigrun to have, and while some may argue she's not a must have, there's very few cases where she hurts your deck for being there. '''
 
+    },
+    'Stefan':{
+        'deck':'Stefan',
+        'promo':'B12 5(3) Stefan, Lion-Blooded',
+        'author':'awesome_sauce',
+        'explanation':'''Description: Stefan is a midrange growther MC who utilizes multiple sources of growthing to untap himself multiple times in a turn. However, his downside is that he only has 2 printed cards in the game, leaving him with 6 usable evades after promoting. Your gameplan can vary, as you can either try to aggro your opponent out as fast as possible and use B12 Elincia 5(3) to lethally untap, or you can play a little slower and focus on clearing field using B16 Kurthnaga 4 and B09 Jill 5(3). However, don’t play too slow, as Stefan is a very bond-heavy MC, meaning once you burn through all of your bonds, you will essentially run out of resources, and everything will start to become fairly vanilla. Once he growths twice after promoting, his attacks become unavoidable by non-mcs, so use this to clear your opponent’s field. In this deck, there will NEVER be an instance in which you want to bond your evades because of how limited they are and how they can be used to untap Stefan.
+
+Curve: Deploy 1 costs on turns 1 and 2, notably Kurthnaga, who can get cards in your retreat to growth with and swing for 60, as well as B12 Ike N+X who can buff Stefan on-hit for +10 on opponent’s turn. Promote on 3, and after promoting keep this in mind: always attack with Stefan first so you can untap him with your other units later. Deploy Kurthnaga 4 on turn 4, heal Jill for the following turn so you can redeploy Kurth if he dies. Jill on turn 5 if Kurth is dead, otherwise you can play cards like Elincia or Soren. Keep healing evades or high costs with Kurth and untap your way to victory! 
+''',
+        'staples':'''Staples:
+B16 Kurthnaga 4: Your main consistency piece and backline access. Raw deploy him on turn 4 or use Jill to summon him. Kurth can heal literally anything in your deck, as a lot of your key pieces are cost 5 and above. Use him to heal Jill to recycle Kurth if he dies, Yune if you need to board wipe, Elincia if you need to lethal, or evades because Stefan has the luxury of being a 5(3). NEVER DEPLOY HIM IN THE BACKLINE. He only gets his buffs from other 5 costs if he is in the frontline, so park him up front and let him sit for big numbers.
+
+B09 Jill 5(3): Your main tool for getting Kurth out. Flips 2 to deploy a fang ally with deployment cost 4 or lower, you will always be using this to summon Kurth from your retreat. Also hits for 80, can growth an ally on-hit, and has good flier support base. Swing with Stefan first and hope Jill lands her attack to untap Stefan.
+
+B12 Elincia 5(3): Your lethality piece. Can growth another ally after her attack, and can untap herself by sending another Elincia to retreat as a Class Change skill. Buff her up with Peony and use her to untap Stefan twice in a turn when going in for the kill.
+
+B20 Yune 6: Wipes board and buffs for +30 on enemy phase. Use this when you’re in a tricky spot!
+
+P03 Soren 3(2): A good alternative or addition for lethality alongside Elincia 5(3). Flips 1 to grow Stefan if he lands hits, meaning that you can keep chaining attacks with Stefan as long as he hits something and has copies of himself in retreat. 
+
+Techs:
+B21 Freyr 0: A tech card that functions extremely well in Stefan. Flip 1 to lock an 80 base enemy. Stefan has a low evade count, this can limit the amount of enemies your opponent can attack with. Can also be used to bond accel if your opponent ramps using a kete.
+
+1 cost growthers: Flip 1 untap! '''
     }
 }
