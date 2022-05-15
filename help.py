@@ -635,6 +635,34 @@ suggestions={
 }
 
 MCs={
+    'Al':{
+        'deck':'Al',
+        'promo':'Al, Blue Champion',
+        'author':'Basil',
+        'explanation':'''Al is an aggressive MC that wants to get to 6 bonds as soon as possible to UNTAP. A bit RNG dependent but even on low rolls he can be quite powerful.
+His skills are very straightforward- his first skill lets him check the top card of the deck after he attacks, and if it's an Al, he untaps. This works well with fate/courage emblems since you can put an Al from hand on top of your deck to guarantee it goes off. 
+His second skill makes the first skill lose once per turn and gives him +10 atk when you're at 6 bonds, meaning he can potentially untap a lot of times.
+Because he works best at 6 bonds, you want to ramp to 6 ASAP, and so he runs lots of low costs and fate emblems to rig the stack. Guinivere also works well with him, allowing him to get a card, rig the support for a fate/kete, and/or put an Al to guarantee his untap.
+He has a lot of copies of himself in the deck so he can self support if you aren't able to rig fate emblems, but it is also possible to run out of evades if you're constantly stacking them, so cards like Nino work well to make sure he doesn't run out.
+Zephiel not only is a solid finisher like in all purple decks, but you can also run his 1 cost that has fate emblem, so you can potentially evade with him and have him stick.
+Al's main weakness is that he is hard countered by freyr- if he is locked, then his deck doesn't do much without him. He is also susceptible to bad RNG, sometimes you don't hit the fate emblems or raw Als and he only swings once per turn.''',
+        'staples':'''Guinivere, Supreme Light-Casting World-Illuminator
+Zephiel, Liberator of the World
+Fae 1 & Myrrh 1'''
+    },
+    'Alm':{
+        'deck':'Alm',
+        'promo':'Alm, Hero-king of the Land of the Gods',
+        'author':'Basil',
+        'explanation':'''Alm is a very flexible MC that can be anywhere from faster-midrange to control depending on the build.
+His main strength is being the best overclass deck since he reduces their class change costs by 1 and can cycle for components, with his cycle also being a board buff.
+One of the most effective (and infuriating) strategies is to promote, overclass Mae on turn 4, cycle/heal to make sure you can make OC again on turn 5, and just lock their board and only attack their MC.
+He is also very good with Faye overclass since she nukes an orb and she gets range with Alm on the board. 
+For slower options, Celica is nice for board clear (especially after Mae-locking a few times), Delthea can discard, and Genny can orb heal/heal from retreat.''',
+        'staples':'''Mae, Sweet Sovereign of the Dark (+ 1 cost)
+Faye, Watchful Black Wings (+ 1 cost)
+Mercedes, Gentle-Auraed Holy Smile'''
+    },
     'Asugi':{
         'deck':'Asugi',
         'promo':'B10 4(3) Asugi, Saizo VI',
@@ -654,6 +682,38 @@ B03 Flora 4(3): Survivability tool that procs Asugi’s Skill 1 to draw him a ca
 B17 Elise 3(2): Consistency tool who flips 1 to heal any card with the same color as your MC (which in this case is any white card).
 
 B07 Yukimura 3(2): Draws a card on another knife ally’s death by an attack and can peek at an orb at the end of your turn. Not as recommended as compared to the other two listed above.'''
+    },
+    'Chrom':{
+        'deck':'Chrom (Yellow)',
+        'promo':'Chrom, Sacred Sovereign of Hope',
+        'author':'Basil',
+        'explanation':'''Chrom is a slower midrange deck that sets up his bonds and retreat to class change multiple allies a turn from retreat to build powerful, value-generating boards quickly.
+Chrom's first skill is what makes the deck- flip 2 bonds, class change an ally from retreat. This lets him cheat out powerful allies by only playing the 1 costs (or 0 cost if you're Sigurd).
+His second skill is less obviously powerful but is important in making him meta-relevant: giving all cc'd allies +10 means he hits 80, and boost other allies up to hit more reliably.
+Yellow is the most popular version of Chrom mostly because of b22 Sigurd- he has a 0 cost you can class change for 2 bond flips, and when he class changes you get a free bond back. If that bond is Seliph, Sigurd net costs 0 bonds to class change and ramps you.
+Another less overtly powerful card is Julia. Her 1 cost helps set up your retreat, letting you bond high cost card from hand then send it to retreat for a different on, and her 5 cost lets you net unflip 1 bond, and hits like a truck.
+For blue class change targets, Robin (Female) from set 22 is hard to beat. Since you can CC multiple allies per turn, it's possible to easily kill 3, 4 of the opponent's units with her. She can also buff herself and cycle orbs for extra utility.
+It's possible (and recommended) to run additional blue CCs for color balancing- Frederick from B22 can make Chrom and himself base 80 and move himself, or Henry can make the opponent discard 2 cards (for a heavy bond flip price).
+Chrom runs a lot of bridges, but it is possible for him to be aggro'd down without his 4(3) bridge. He also can be outvalued by traditional control decks that deny him orbs and don't swing as much, making it harder for him to get good class changes in the retreat.''',
+        'staples':'''Sigurd, Holy Honor-Imparting Knight (+ 0 cost)
+Robin (Female), Tactician Bearing a Spectrum of Strategies (+ 1 cost)
+Julia, Shining Maiden of Saintly Lineage (+ 1 cost)
+Seliph, Savior of Light'''
+    },
+    'Chrom22':{
+        'deck':'B22 Chrom',
+        'promo': 'Chrom, Fate-Changing Exalt B22 (4(3))',
+        'author':'Pig',
+        'explanation':'''Also known as "MonoChrom" for it typically using exclusively Blue cards Chrom is a "toolbox" deck, a moniker which refers to the large variety of cards it can play to cover for different scenarios, matchups, and player preferences. The deck's strength lies in its flexibility, however the general function of Chrom as a card remains consistent throughout most builds.
+
+At the start of your Deployment Phase Chrom can deploy a low cost card from your Retreat Area which can then be class changed during your Deployment Phase. In addition to the benefits that come with whatever card you just class changed Chrom's second skill will also draw you an extra card! Whether it's clearing your opponent's board with Female Robin, using Frederick to up Chrom's stats and provide some mobility, or any number of other options it's Chrom's consistency and flexibility that will remain his greatest strength.
+
+Chrom can be built a vast variety of ways, but if you want a good place to start I'd recommend including at least one or two of the following Class Change sets to give yourself a good baseline to work with.''',
+        'staples':'''Robin (Feamle), The Exalt's Tactician + Robin (Female), Tactician Bearing a Spectrum of Strategies (B22 2 + 5(4))
+Lucina, Despair-Defying Princess + Lucina, Princess Striving for a Hopeful Future  (B14 1 + B22 5(4))
+Frederick, Knight of Ylisse + Frederick, Guardian Knight of the Halidom (B22 1 + 4(3))
+
+While not a card that you can class change Naga, Divine Dragon of Salvation is also a card you should consider having at least a couple copies of. Naga allows you to Class Change one of your allies from the Retreat Area, which in tandem with Chrom's ability to deploy allies from the Retreat Area lets you play just about anything!'''
     },
     'CorrinF1':{
         'deck':'White Aggro Corrin (Female)',
@@ -677,6 +737,21 @@ B07 Yukimura 3(2): Draws a card on another knife ally’s death by an attack and
 •    Hapi, Karma-Burdened Valkyrie, B21 4(3)
 •    Byleth (Male), He who Bears the Flames Within, B18, 5(4)
 •    Sothis, The Beginning, B19, 2'''
+    },
+    'Eirika':{
+        'deck': 'Eirika (Mono-Purple)',
+        'promo':'Eirika, Princess of Kindness and the Storm Blade',
+        'author':'Basil',
+        'explanation':'''Eirika is a very straightforward midrange MC- she is in purple, draws cards where there are 2 other frontline allies, and can prevent a self support once per turn.
+Because her skills are very generic and don't require much to build around, she can be built in a number of different ways, playing faster or slower, with different splashes, etc.
+The mono-purple build usually skews a bit more aggressive because of cards like Gerik providing good pressure while securing a draw and the abundance of good hero emblems.
+Playing Eirika is very easy- early on, play 1 costs and swing to try to get hero emblems or Lilina supports, promote on 3, then play your choice of 4 cost (Gerik, Eliwood, Marisa, Florina).
+Free deploys like peony and mirabilis are nice for getting to the 3 frontline benchmark. And of course you have Zephiel as a finisher with a number of low costs to use with him.
+The main weakness of this version is that it can run out of steam even with the free draws, and it can be out-aggro'd since she is not amazing on defense.''',
+        'staples':'''Gerik, Almighty Mad Tiger
+Myrrh 1 & Fae 1
+Ephraim, Prince of Renais
+Zephiel, Liberator of the World'''
     },
     'Eldigan':{
         'deck':'Eldigan(General)',
@@ -748,6 +823,22 @@ Lute, Matchless Prodigal Mage '''
 -B20-019N Reina, Lady of the Palace Guard
 -B02-049HN Emma, Kinshi Knight Fledgling'''
     },
+    'Hilda':{
+        'deck':'Hilda',
+        'promo':'Hilda, Soaring Free Spirit',
+        'author':'Basil',
+        'explanation':'''Hilda is a solid brown tempo MC, having an extremely good deploy skill the can cheat out a lot of brown's power cards and coming out on turn 3, a rarity in brown.
+Hilda herself isn't very noteworthy- she simply deploys brown cards with an attack of 70 or higher by tapping, and gets +30 during your turn when your hand is low (which will be often).
+Her main advantage over other Brown MCs is that she is tempo-focused, deploying strong cards like Seiros, Dimitri, and Edelgard and starting on turn 3.
+She can also still use the typical brown power cards like Byleth and Sothis CP, helping her survive aggro and put pressure on late respectively.
+Since her hand gets low even faster than usual brown due to extra deploys, Kronya is a good inclusion in most versions as a small engine to keep cards and attacks coming.
+Her main weakness is if she runs out of fuel she is more dead in the water than most brown decks, so it's either kill pretty quickly or lose. She also is particularly hurt by plumeria blocking her deploys.''',
+        'staples':'''Byleth, He Who Bears the Flames Within
+Sothis, The Beginning
+Seiros, Saint Who Recieved a Divine Revelation
+Dimitri, Awakened Savior King
+Kronya, Agarthian Assassin'''
+    },
     'Inigo':{
         'deck':'Inigo',
         'promo':'Inigo, Floral Scented Dancing Sword',
@@ -792,6 +883,21 @@ If you haven't noticed, that's pretty much every deck in the game now.  Good luc
 * 4 Risen King Chrom
 * 4 Shannan 3/2
 * 4 B08 Frederick 4/3'''
+    },
+    'Lucina':{
+        'deck':'Lucina',
+        'promo':'Lucina, Hope-Ruling Queen',
+        'author':'Basil',
+        'explanation':'''Lucina is an aggressive class-change oriented deck that wants to do damage early and then blow the opponent out in one big burst turn.
+She usually hopes to bridge and deploy Frederick or spam ketes to ramp in the early game, then go into her b22 5(4) to tempo out useful 4 cost units like Lissa, Robin or Sumia.
+Once the opponent is at low enough orbs and Lucina has enough low costs in hand, she can dump her hand onto the board, class change into X Lucina to buff them all, and then go for game.
+Depending on the 4 costs and support cards you run, she can be more or less consistent and have higher or lower value generation.
+Cards like Naga, Lissa and extra bridges help with consistency, while cards like Tiki 4 and Frederick put on pressure.
+Lucina can be susceptible to aggro as she is not amazing on defense, but does run a higher than usual number of evades. She can also get clunky hands if she doesn't draw the right value cards.''',
+        'staples':'''Frederick, The Exalt's Guardian
+Naga, Divine Dragon of Salvation
+Sumia, Sweet Blossom of the Skies
+Robin, Tactician of Exalted Strategies'''
     },
     'Micaiah':{
         'deck':'Micaiah 22',
@@ -901,6 +1007,25 @@ B22 Rowan 5(4), B21 Hapi4(3)
 Play these after you are out of Mae Overclasses to clear your opponents board. Rowan cleans everything if there are 4 or more Non-MC. Hapi clears 2 things if there are 3 or more Non-MC.  Run one or the other as a 2-3 of.'''
     },
     'Roy':{
+        'deck':'Roy (Dark & Draw)',
+        'promo':'Roy, Evil Star-Scorching Binding Flame',
+        'author':'Basil',
+        'explanation':'''Roy is universally accepted as THE purple stacker MC, taking advantage of purple's strong support skills on a character that has good stats and plenty of options for building.
+His skills are very straightforward- skill 1 puts a card on top of your deck to give roy +10 until next turn and range 1-2, and his second skill lets him draw a card at the end of the turn if he used skill 1.
+So as a base, he is base 80 with range that cycles a card. Not bad, but surely on turn 4 that's a bit underwhelming? 
+Nope. Not only is he in purple so he can stack cards like Lilina and Lute for draws or Canas and Raigh for discards, but he also gets the purple manaketes.
+Roy has a 1 cost that lets him draw and put a card on top of deck when he hits, so that in addition to a number of 1 costs lets him ramp at least once fairly reliably before turn 4.
+He also has a number of alt promos and bridges to choose from, including the bridge that can function as a main promo itself, B21-HR Roy.
+Then when you combine him with cards like Canas 4 to rig more tome stacks and Zephiel as a finisher, roy becomes a midrange king that can draw, discard, cycle, and has no problems hitting.
+While he is considered a top 5 MC, he does have some weaknesses. Freyr can bother him since he wants to kete, and if he does the opponent gets more out of it, and since roy is 80 with his buff freyr can lock him.
+It's also possible for roy to struggle with aggro, Oboro is particularly annoying since she wants to avoid his early face swings anyway.''',
+        'staples':'''-Canas, Benighted Smile
+-Lilina, Wielder of the Infernal and Righteous Flames
+-Myrrh 1 & Faye 1
+-Raigh 1 & Canas 1
+-Zephiel, Liberator of the World'''
+    },
+    'Roy2':{
         'deck':'LIS Roy',
         'promo':'Roy, Forger of a Future between Humans and Dragons',
         'author':'Maj. HolyBlood',
