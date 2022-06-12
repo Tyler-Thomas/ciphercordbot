@@ -726,6 +726,15 @@ While not a card that you can class change Naga, Divine Dragon of Salvation is a
 - Ryoma (Cost 5 from Set 20), enables strong tempo plays in tandem with Corrin (Male), also gives you draw power and can hit big numbers
 - Corrin (Male) (Cost 6 from Set 10), generates value off bond grab, can summon up to 3 low costs that you can use to hit your opponent with crits. '''
     },
+    'CorrinF2':{
+        'deck': 'Black Corrin Female',
+        'promo': 'Corrin (Female), Divine Daughter of the Darkening Dusk Dragon, B10, 6(5)',
+        'author':'BanjoMW',
+        'explanation':'''Corrin is an MC that is good at keeping control of the board while your opponent expends their resources. By ramping a black card from her hand corrin can destroy 1 non-MC enemy which makes it very hard for your opponent to build a field up without anti-destruction skills for which Corrin can run units with high attack and 1-2 range to help deal with. When added on to her natural bulk because of being an 80 base it makes consistently hitting corrin very hard to pull off. Alongside this bulk Corrin also has 2 bridges that are bulky which helps her avoid being beaten down in the early game (These bridges are Dusk Pursuing Princess, P02, 3/2 and Night Breaks Through the Day, B15, 4/3). Corrin also has a skill that buffs her field by 10 attack, during her turn if she has 2 or more Black bond cards, which due to her skill that kills enemies, is reliable to pull off. These skills together allow Corrin (Female) to become a strong threat in the late game if you play cards that can help get her to the lategame.''',
+        'staples':'''Tiki, Immortal Voice, B08, 4- Since Corrin is a 6(5), she promotes fairly late considered to other meta decks. Tiki partly helps to fix this with her skill “Rite of Awakening”, Tiki can flip 1 bond to class change an ally if there is a promotion card in the player’s hand. This means Corrin can promote a turn earlier.  When combined with Corrins ramp skill this also allows other staples to come out earlier than they otherwise could. Also being a base 80 when you have 7 bonds with range 1-2 makes her harder to clear
+•    Nowi, Playful Millenary Dragon, B12, 4- Nowi is your bond retrieval in this deck. If Nowi is the first unit to attack this turn she will grab 1 bond and return it tour your hand. This can be used to; grab a black bond to kill another non-MC with corrin, grab a crit or setup a deploy for the following turn. Like Tiki, Nowi gains a buff at 7 bonds but as she has 10 more base attack Nowi is a base 90 with range 1-2. This makes Nowi the strongest unit in the deck at 7 bonds and with a field buff given by Corrin she is the most reliable 100 beater.
+•    Genny, Supreme Saint, B11, 4(5)- Genny is one of the other staples I mentioned in Tiki’s description. Her class change cost is higher than her original cost which means Genny is an Overclass. Cards with an Overclass get a skill that activates when you class change into them Genny’s allows you to choose a card from your retreat area to add to your orbs. This is why you wait till you have 6 bonds generally to play her in combination with a Genny 1 cost. But this is not all she does, she also has a flip 3 heal 2 bonds that is not limited to Once Per Turn which can be used here since corrin ramps and on the turn you play genny you can have 7 bonds with only 1 flipped down, Tiki’s skill.'''
+    },
     'Dimitri':{
         'deck':'Dimitri',
         'promo':'Dimitri, Awakened Savior King, B21, 5(4)',
@@ -856,6 +865,56 @@ Sothis, The Beginning
 Edelgard 5(4), She Who Bares Her Fangs at the Gods
 Larcei 4(3), Sky-Dancing Astra'''
     },
+    'Leif':{
+        'deck': 'Unifier Leif',
+        'promo': 'Leif, The Future Sage-Lord',
+        'author': 'Darrman',
+        'explanation':'''The king of the New Kingdom of Thracia has one aim: keep unifying Thracia. In order to do that, he needs to get as many bonds as possible as fast as possible.
+Unifier of Thracia (or Unify) is the main focus of the deck. When building the deck, aim to include Unify targets. Be aware of its reasonably steep cost: flip 2 and discard an evade. Bring Leaves: 14-16 will do.
+His bond skill, Prince's Reparation, is also powerful. Bonding him is safe. He can be swapped at any time for a non-Leif card, such as B08 Seliph to unflip a bond. There's no need to swap Leif with anyone.
+Finally, his second skill ensures his hits double-break.
+
+Curve:
+Leif's curve has him reach a minimum of eight bonds by turn 5 in order to activate Unify to summon two yellow units from the retreat.
+Bridge on Turn 2 into B17 3/2 and play Lewyn/Sigurd 0. Tap the 0 cost to ramp.
+The next turn, promote into B15 4/3 to ramp directly from hand face-down. If you ramped on T2, Deirdre 4 works too.
+Leif has two respectable Turn 4 plays available to him. Playing Sigurd 0 into 5 is a powerful two-card combo that lets you bond from retreat. Grabbing promo or a Seliph to unflip a bond are both good options. Sigurd can buff with a Seliph. If you don't have T4 Sigurd, Deirdre is a good 4 drop.
+By Turn 5 you should have eight bonds after your bond phase. If not, B22 Leif is a backup. Activate Unifier and summon two units. Sigurd and Julia are the best targets, with Deirdre or Seliph as backups.
+
+Leif is weak to aggro. He does have a lot of evades, but this also increases the chance he will self. Mull for 3/2 here. Do not attack face against aggro decks until they have run out of steam. Don't punch Oboro especially.
+Beware of deck reset: running 51-52 cards may be worth it. Rhea CP shuts you down. Run grey cards at your peril: Deirdre ramps face-down if she hits one and Julia can't flip them.''',
+        'staples':'''B22 Sigurd 5 & B19 Sigurd 0
+Your strongest Turn 4 play in combination, bonds from retreat, flip himself/Seliph to buff.
+Sigurd 0 can be tapped to ramp Turn 2. "Ghost Dad" is a late-game brick; bond him after Turn 4. Stack Sigurds for more bonds.
+
+* B17 Deirdre 4 & B06 Deirdre 1
+Always a good play to ramp. Reveal Seliph and you +1; hit non-yellow for a -1. Tap her to kill dragons.
+Deirdre 1 swaps a bond with a card in retreat. Swap a Unify target like Julia for Leif/Seliph.
+
+* B08 Seliph 5
+1: He unflips bonds if bonded by effect. Deirdre, Julia, or B10 Leif BS all work.
+2: He buffs everyone by 10 if you've three yellow bonds face up; use Julia here.
+3: Final Holy War. Discard a Seliph to add as many bonds as you want to your hand, typically a +5-6. Synergises with B10 Nanna's ramp and B19 Lana, who can heal Seliphs.
+
+* B19 Julia 5
+She can swap three bonds out to get three bonds in. Ideal cards to swap out include Unify targets, Seliphs, and non-yellow cards.
+Usually gives +1 on face-up bonds: hit Seliph to go +2, or hit Nanna to grab a bond back. She's a good beater as well; use Deirdre's ramp after Julia's summoned to hit 100.
+Do not use her if under 3 cards in deck.
+
+* Others
+Leif is quite flexible. Run these as 1-2 of and summon off Unify.
+B15 Travant 5 discards a bond to cut enemy hand to 5.
+B17 Arvis 4 kills an enemy if you've 8 bonds.
+B08 Julius 5 can flip enemy bonds. Beware the 0 support.
+B15 Linoan 3 unflips bonds at EoT. She's slow and frail, though.
+B10 Nanna 5, when bonded, can retrieve a bond. Watch out for the 10 support. (But they're too cute together!)
+B19 Lana 3 can flip 1 heal if an enemy has >=80 attack.
+B12 Lachesis 4 & B08 Tine 3 have draw power BSes.
+B19 Seliph unflips a bond when something is deployed. Unifying him counts.
+B17 Sigurd buffs by 10 when swinging face. Good finisher.
+B15 Ethlyn 4 negates effect destruction. She's a 10 support.
+B19 Lewyn 0 is T2 tap fodder and swarms deploys late.'''
+    },
     'Lon\'qu':{
         'deck':'Lon\'qu (Risen Variant)',
         'promo':'Lon\'qu, Solitary Blade',
@@ -917,6 +976,30 @@ Kurthnaga B16-081SR
 Ilyana B14-097SR
 Soren B17-065SR'''
     },
+    'Nanna':{
+        'deck': 'Nanna(OC)',
+        'promo': 'Nanna 5(4) B10',
+        'author': 'TotallyABot',
+        'explanation': '''Welcome, to yellow red control. Your goal is to curve into your bridge and into your main promo, ramping up as you go, and then quickly deploying ocs afterwards, specifically delthea and genny, to help stabilize and play your gameplan. Exceptions come against other control decks, as most control decks will outvalue and outlast you, but most of the time you should be ignoring the enemy mc and clearing the board. or even just passing turn if you have nothing to clear
+
+Your ideal curve is Turn 2 3(2) bridge, Turn 3 Main Promo, and Turn 4 either Genny or Delthea OC, depending on what mc you are playing against. (A single delthea or genny can entirely shut down an aggro deck, and Delthea especially can be extremely punishing if the enemy has yet to promo). If you missed your main promo. curving into Deirdre 4(3) B17 on turn 3 also allows you to curve into OC the next turn, but it is slightly less ideal. (This should make it clear however, Mulligan for your bridge. it is more important)
+
+The difficulty with this deck does not come with what to do on the first few turns of curves, it comes with how you manage your bond skills, knowing when to deploy and when not to, and managing which cards to heal to allow you to both survive, and continue to execute your gameplan.
+
+Once you've stabilized with enough OCs and enemy burning their resources, then you can start punching them in the face. Sometimes you have to punch earlier, but that is a matchup to matchup and situation to situation scenario. 
+
+Your finisher is often a 2-3 man unify deploy (From Leif 5(4) B10)), or grabbing a lot of your bonds with Holy War (with B08 Seliph). Before that, play around with using Leif 5(4)'s bond skill to bond Seliph's to unflip a bond. You can also bond other copies of your Nanna 5(4) to grab (prefarably fipped) bonds into your hand. 
+''',
+        'staples':'''Genny 1 and 4(5): OC pieces, allows you to survive and heal what you need. Self explanatory.
+
+Delthea 1 and 4(5): OC pieces, allows you to get rid of enemy cards and stabilize. Self explanatory.
+
+Leif 5(4): Allows for unifier, which is a fun finisher. But the main purpose is for it's bond skills, allowing you to make more use of your bonds, as Nanna ramps face down (and requires flips).
+
+Seliph 5(4): Works in tandem with Leif 5(4) to unflip bonds. Essential to keep your engine running. Also essential to grab your bonds once you have 8+ and need to stabilize, as it is easier for you to get bonds then it is for you to draw cards
+
+Deirdre 4(3): Allows you to have an alternate plan if you don't find your Main promo. Also rprovides an additional deploy with unifier, and is just a much more consistent and much less costly ramp then Nanna's ramp, or just an additional ramp to work with in the late game. '''
+    },
     'Nino':{
         'deck': 'Nino',
         'promo': 'Nino, Pious Mage B07-039SR',
@@ -968,6 +1051,21 @@ Techs:
 - Ares, Nostalgic Black Prince, B12 4(3) - Ares is both an additionnal double-break attack that can be bast 90 and a pulling tech is your hand is low enough. Having 3 face up bonds for the double break effect is pretty simple, but the +20 and the bond skill requirements are more situationnal.
 - Julia, The God of Light's Descendant, B08 4(3) - Another tool that helps you putting the right cards in your bonds, but have a destroying requirement that can easilly be avoided by your opponent.'''
     },
+    'Randal':{
+        'deck': 'Randal',
+        'promo': 'Randal, Dishonorable Invincible Knight B07-049HN',
+        'author': 'Colonel M',
+        'explanation':'''This variation of Randal relies on using "You guys are pretty useful pawns" to stack and re-deploy units either during the current Action Phase or the next Action Phase. Stacking Mae OC is the best thing to do, though on occasion stacking Tana and re-deploying her through her Support Skill can allow for another attack on the same turn. You can create a near-infinite Mae OC loop provided that you have Mae 1s in hand. As the MC is rather gimmicky, utilizing cards such as Divine Ride Frederick and Nemesis can let Randal have a few burst turns outside of Mae OC and himself swinging. You can also use Tiki, Myrrh, and Fae to help ramp to Mae OC faster. Pack a Rowan or two to help clear the board when it gets too big.''',
+        'staples':'''Staples:
+Mae, Sweet Soverign of the Dark B16-044SR
+Mae, I'll Do It For Lady Celica! B16045N
+Mae, Energetci Mage Girl B09-026N
+
+Optional Cards:
+Tana, Wings of Love and Friendship
+Frederick, The Exalt's Guardian Knight B08-009SR
+Nemesis, Resurrected King of Liberation B21-048HN'''
+    },
     'Raven':{
         'deck': 'Raven, Unquenched Flame of Vengeance',
         'promo': 'Unquenched Flame of Vengeance (B21 4/3)',
@@ -1005,6 +1103,16 @@ Run max of all of these and 2-3 set 9 Mae4(3) for evades. You want to have 14-16
  **Board Wipes:** 
 B22 Rowan 5(4), B21 Hapi4(3)
 Play these after you are out of Mae Overclasses to clear your opponents board. Rowan cleans everything if there are 4 or more Non-MC. Hapi clears 2 things if there are 3 or more Non-MC.  Run one or the other as a 2-3 of.'''
+    },
+    'RobinF2':{
+        'deck': 'Female Robin (Infinite Sigurd)',
+        'promo': 'Robin (Female), Legendary Tactician B08-006SR',
+        'author': 'Colonel M',
+        'explanation': '''While not as proficient as the Mae lock, this variant relies on using Sigurd 5(4) multiple times while slowly whittling your opponent of resources by keeping Female Robin at 100 Attack. Use Dragonketes and Sigurd promotion to ramp while switching out Sigurds from Bonds back into Orbs and hand. When the opponent is low on orbs, you can try finishing with Sigurd 4(3) and deploy a unit if you're at 6 bonds. Leif and Tiki 5(4) are excellent deploys - the former giving the field +10 while ramping from hand while the latter hits for 100 and can still ramp back to 6 Bonds if Tiki destroys an enemy. Liberal use of Invisible Ties can help clean up your hand and setup to potentially continue the Sigurd CC chain. Leif BS can help push or pull non-MC characters to mitigate them as a threat or for easier destruction.''',
+        'staples':'''Sigurd, Holy Honor-Imparting Knight B22-003SR
+Sigurd, A Soul Who LIved for Love B19-056HN
+Sigurd, 'Neath Noble Ideal B17-095SR
+Leif, Prince of Two Sacred Bloodlines B15-076SR'''
     },
     'Roy':{
         'deck':'Roy (Dark & Draw)',
@@ -1112,5 +1220,20 @@ Techs:
 B21 Freyr 0: A tech card that functions extremely well in Stefan. Flip 1 to lock an 80 base enemy. Stefan has a low evade count, this can limit the amount of enemies your opponent can attack with. Can also be used to bond accel if your opponent ramps using a kete.
 
 1 cost growthers: Flip 1 untap! '''
+    },
+    'Twins':{
+        'deck': 'Twins(Rowan/Lianna)',
+        'promo': 'Lianna and Rowan 4/3, B11',
+        'author': 'Dovahkiin',
+        'explanation':'''Twins is a strange sort of stall deck that uses their Hero Swap skills to transfer MC status back and forth while repeatedly Class Changing themselves to draw cards, and can be played in a variety of colors, blue, green, or yellow being standard.
+The main gameplan of the deck is to have a copy of both Rowan and Lianna 4/3 so every turn you can deploy the twin not currently your MC and HS to them, returning the other twin back to hand. With any extra Bonds you have, you CC your current MC with any copies of Rowan/Lianna 3/2 and 4/3 you have. When that Unit is returned to your hand, you get back every card in that Unit's stack, making it so you don't actually lose a card by CCing.
+You spend the rest of your time controlling the board by destroying enemy units and buffing your own MC to avoid getting hit, while avoiding hitting the opposing MC as to not give them orbs until you are greatly ahead of them on cards in hand, not a hard feat for this deck in the late game.''',
+        'staples':'''-Rowan/Lianna 3/2, B11: Kind of obvious you want bridges, but you want as many copies as possible as they have the cheapest CC cost, basically making them draw a card for every 2 Bonds you have.
+-Wrys 2, B22: Due to a weird quirk of how Cipher works, a unit with no cards stacked under them is considered not leveled up, even if that unit is a 4/3 that just became your MC like the Twins are, so Wrys is able to use his buff after you HS, making him the most important card to add, regardless of color.
+-Tiki 5, B17: Tiki allows you to both pick up flipped bonds in the late game, or to bond one of your many cards gained from CCing, allowing you to spend more flips on Rowan's skill and have more overall bonds to CC more copies of MC.
+-Mercedes 4/3, B18: Use her CP to heal more copies of 3/2 Twins, or other cards if need be, don't actually deploy her.
+-Henry 3/2, B01: The reason to play blue, Henry allows you to turn all of your CCs from drawing cards to making your opponent discard cards, your best way to win the game.
+-Ilyana 5/3, B14: Turns your many cards in hand into destruction, while also letting you flip 1 to draw per enemy destroyed with Lianna's skill 3, one of the big draws to play green.
+-Sigurd 5/4, B22: Gives +30 to your MC while also ramping you and unflipping a bond when you CC him with Sigud 0 from B19 and Seliph 5/4 from B08, all things Twins wants, making him the main draw of yellow.'''
     }
 }
