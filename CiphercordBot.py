@@ -108,7 +108,7 @@ async def report(ctx):
     writer.writerows(data)
     buffer.seek(0)
 
-    await ctx.member.send(file=discord.File(buffer,'WinRates.xlsx'))
+    await ctx.author.send(file=discord.File(buffer,'WinRates.xlsx'))
 
 @bot.event
 async def on_member_join(member):
