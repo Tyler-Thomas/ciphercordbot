@@ -105,10 +105,10 @@ async def report(ctx):
     buffer=io.StringIO()
     writer = csv.writer(buffer)
     writer.writerow(header)
-    writer.writerows(data)
+    writer.writerows(rows)
     buffer.seek(0)
 
-    await ctx.author.send(file=discord.File(buffer,'WinRates.xlsx'))
+    await ctx.author.send(file=discord.File(buffer,'WinRates.csv'))
 
 @bot.event
 async def on_member_join(member):
