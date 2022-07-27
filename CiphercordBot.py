@@ -102,13 +102,14 @@ async def report(ctx):
     rows = []
     for entry in data:
         rows.append([entry['_id'],entry['winningMC'],entry['losingMC'],entry['winningplayer'],entry['losingplayer'],entry['generalcontext'],entry['specificcontext']])
-    buffer=io.StringIO
+    buffer=io.StringIO()
     writer = csv.writer(buffer)
     writer.writerow(header)
     writer.writerows(data)
     buffer.seek(0)
 
     await ctx.member.send(file=discord.File(buffer,'WinRates.xlsx'))
+
 @bot.event
 async def on_member_join(member):
     print("Member joined")
