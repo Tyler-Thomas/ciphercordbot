@@ -4,6 +4,9 @@ from unicodedata import name
 import wikiModule
 import help
 import discord
+import pymongo
+import io
+import csv
 
 from discord.ext import commands
 
@@ -83,8 +86,29 @@ async def tips(ctx,card):
     else:
         await ctx.send('This deck hasn\'t been listed in this bot yet, but a member of Ciphercord will likely be able to help you.')
 
+@bot.command(name='report', help="Generate excel sheets with the Tournament MU data that's being recorded.")
+async def report(ctx):
+    print("Report command called")
+    client = pymongo.MongoClient(os.getenv('MONGO_URI'))
+    db = client['TourneyMUs']
+    collection = db['Matchups']
+    try:
+        data = list(collection.find({}))
+    except:
+        await ctx.send('There was trouble connecting to the database. Try again later.')
+        return
 
+    header = ['ID','Winning MC','Losing MC','Winning Player','Losing Player','General Context','Specific Context']
+    rows = []
+    for entry in data:
+        rows.append([entry['_id'],entry['winningMC'],entry['losingMC'],entry['winningplayer'],entry['losingplayer'],entry['generalcontext'],entry['specificcontext']])
+    buffer=io.StringIO
+    writer = csv.writer(buffer)
+    writer.writerow(header)
+    writer.writerows(data)
+    buffer.seek(0)
 
+    await ctx.member.send(file=discord.File(buffer,'WinRates.xlsx'))
 @bot.event
 async def on_member_join(member):
     print("Member joined")
