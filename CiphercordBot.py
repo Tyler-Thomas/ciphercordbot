@@ -149,7 +149,7 @@ async def report(ctx):
 @bot.command(name='wr', help=helpstring3)
 async def winRate(ctx, mc: str):
     print("Win rate command called")
-    mc = mc.replace(mc[0:1],mc[1:2].capitalize())
+    mc = mc.replace(mc[0:1],mc[0:1].capitalize())
     if mc not in MCLIST:
         await ctx.send("```There is no win rate available for the provided MC, either because the MC hasn't won any games, or because the input was faulty.```")
         return
