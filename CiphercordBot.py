@@ -123,8 +123,8 @@ async def report(ctx):
         try:
             mc_info=get_win_rate(MC, collection)
         except:
-            await ctx.send('There was trouble connecting to the database. Try again later.')
-            return
+            ctx.send('There was trouble connecting to the database. Try again later.')
+            
         rows2.append([MC,mc_info[0],mc_info[1]])
     rows2.sort(key=itemgetter(2), reverse=True) 
     buffer2=io.StringIO()
