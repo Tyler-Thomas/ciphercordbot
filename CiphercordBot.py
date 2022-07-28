@@ -147,8 +147,9 @@ async def report(ctx):
     await ctx.author.send(file=discord.File(buffer2, 'MCWinRates.csv'))
 
 @bot.command(name='wr', help=helpstring3)
-async def winRate(ctx, mc):
+async def winRate(ctx, mc: str):
     print("Win rate command called")
+    mc = mc.replace(mc[0:1],mc[1:2].capitalize())
     if mc not in MCLIST:
         await ctx.send("```There is no win rate available for the provided MC, either because the MC hasn't won any games, or because the input was faulty.```")
         return
@@ -157,11 +158,11 @@ async def winRate(ctx, mc):
     db = client['TourneyMUs']
     collection = db['Matchups']
     try:
-        info: tuple = get_win_rate(mc, collection)
+        info: tuple = get_win_rate(mc.capitalize(), collection)
     except:
         await ctx.send('There was a problem connecting to the database. Try again later.')
         return
-    await ctx.send(f'```{mc} has a win rate of {info[0]} with {info[1]} games played.```')
+    await ctx.send(f'```{mc} has a win rate of {round(info[0],2)} with {info[1]} games played.```')
 
 @bot.event
 async def on_member_join(member):
