@@ -148,15 +148,20 @@ async def report(ctx):
 
 @bot.command(name='wr', help=helpstring3)
 async def winRate(ctx, mc):
+    print("Win rate command called")
     if mc not in MCLIST:
-        await ctx.send("There is no win rate available for the provided MC, either because the MC hasn't won any games, or because the input was faulty.")
+        await ctx.send("```There is no win rate available for the provided MC, either because the MC hasn't won any games, or because the input was faulty.```")
         return
     
     client = pymongo.MongoClient(os.getenv('MONGO_URI'))
     db = client['TourneyMUs']
     collection = db['Matchups']
-    info: tuple = get_win_rate(mc, collection)
-    await ctx.send(f'{mc} has a win rate of {info[0]} with {info[1]} games played.')
+    try:
+        info: tuple = get_win_rate(mc, collection)
+    except:
+        await ctx.send('There was a problem connecting to the database. Try again later.')
+        return
+    await ctx.send(f'```{mc} has a win rate of {info[0]} with {info[1]} games played.```')
 
 @bot.event
 async def on_member_join(member):
