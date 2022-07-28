@@ -121,7 +121,7 @@ async def report(ctx):
     MCs = list(collection.distinct('winningMC'))
     for MC in MCs:
         mc_info=get_win_rate(MC, collection)
-        rows2.append([MC,mc_info(0),mc_info(1)])
+        rows2.append([MC,mc_info[0],mc_info[1]])
     sorted(rows2, key=itemgetter(2), reverse=True) 
     buffer2=io.StringIO()
     writer2= csv.writer(buffer2)
