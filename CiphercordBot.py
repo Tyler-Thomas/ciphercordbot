@@ -1,4 +1,5 @@
 import os
+from typing import Collection
 from unicodedata import name
 
 import wikiModule
@@ -7,7 +8,7 @@ import discord
 import pymongo
 import io
 import csv
-
+from operator import itemgetter
 from discord.ext import commands
 
 if not os.environ.get("PRODUCTION"):
@@ -28,6 +29,13 @@ for x,y in help.suggestions.items():
 for x,y in help.MCs.items():
     helpstring2+=f'\n{x}: {y["deck"]}'
 
+def get_win_rate(MC,col: Collection) -> tuple:
+    wincount = len(list(col.find({'winningMC':MC})))
+    losscount = len(list(col.find({'losingMC':MC})))
+    mirrorcount = len(list(col.find({'winningMC':MC, 'losingMC':MC})))
+    total = wincount + losscount - mirrorcount
+    rate = float((wincount-mirrorcount)/total)
+    return (rate,total)
 
 @bot.event
 async def on_ready():
@@ -108,7 +116,21 @@ async def report(ctx):
     writer.writerows(rows)
     buffer.seek(0)
 
-    await ctx.author.send(file=discord.File(buffer,'WinRates.csv'))
+    header2 = ['MC','Win Rate', 'Games Played']
+    rows2 = []
+    MCs = list(collection.distinct('winningMC'))
+    for MC in MCs:
+        mc_info=get_win_rate(MC, collection)
+        rows2.append([MC,mc_info(0),mc_info(1)])
+    sorted(rows2, key=itemgetter(2), reverse=True) 
+    buffer2=io.StringIO()
+    writer2= csv.writer(buffer2)
+    writer2.writerow(header2)
+    writer2.writerows(rows2)
+    buffer2.seek(0)
+
+    await ctx.author.send(file=discord.File(buffer,'Matchups.csv'))
+    await ctx.author.send(file=discord.File(buffer2, 'MCWinRates.csv'))
 
 @bot.event
 async def on_member_join(member):
