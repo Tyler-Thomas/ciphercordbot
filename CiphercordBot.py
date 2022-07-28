@@ -33,7 +33,7 @@ def get_win_rate(MC,col: Collection) -> tuple:
     wincount = len(list(col.find({'winningMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
     losscount = len(list(col.find({'losingMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
     mirrorcount = len(list(col.find({'winningMC':MC, 'losingMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
-    total = wincount + losscount - mirrorcount
+    total = wincount + losscount - 2*mirrorcount
     rate = float((wincount-mirrorcount)/total)
     return (rate,total)
 
@@ -123,7 +123,8 @@ async def report(ctx):
         try:
             mc_info=get_win_rate(MC, collection)
         except:
-            ctx.send('There was trouble connecting to the database. Try again later.')
+            await ctx.send('There was trouble connecting to the database. Try again later.')
+            return
         rows2.append([MC,mc_info[0],mc_info[1]])
     rows2.sort(key=itemgetter(2), reverse=True) 
     buffer2=io.StringIO()
