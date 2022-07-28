@@ -30,9 +30,9 @@ for x,y in help.MCs.items():
     helpstring2+=f'\n{x}: {y["deck"]}'
 
 def get_win_rate(MC,col: Collection) -> tuple:
-    wincount = len(list(col.find({'winningMC':MC})))
-    losscount = len(list(col.find({'losingMC':MC})))
-    mirrorcount = len(list(col.find({'winningMC':MC, 'losingMC':MC})))
+    wincount = len(list(col.find({'winningMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
+    losscount = len(list(col.find({'losingMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
+    mirrorcount = len(list(col.find({'winningMC':MC, 'losingMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
     total = wincount + losscount - mirrorcount
     rate = float((wincount-mirrorcount)/total)
     return (rate,total)
