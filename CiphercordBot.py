@@ -118,7 +118,7 @@ async def report(ctx):
 
     header2 = ['MC','Win Rate', 'Games Played']
     rows2 = []
-    MCs = list(collection.distinct('winningMC'))
+    MCs = list(collection.distinct('winningMC',{'generalcontext':{'$in':['Major','Variety']}}))
     for MC in MCs:
         try:
             mc_info=get_win_rate(MC, collection)
