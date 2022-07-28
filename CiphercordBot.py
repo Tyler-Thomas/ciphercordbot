@@ -29,6 +29,15 @@ for x,y in help.suggestions.items():
 for x,y in help.MCs.items():
     helpstring2+=f'\n{x}: {y["deck"]}'
 
+cli = pymongo.MongoClient(os.getenv('MONGO_URI'))
+DB = cli['TourneyMUs']
+coll = DB['Matchups']
+MCLIST= list(coll.distinct('winningMC',{'generalcontext':{'$in':['Major','Variety']}}))
+print('Generated MC List.')
+helpstring3='Type 0!wr and then one of the following MCs to get that MCs win rate for non-custom tournaments.'
+for x in MCLIST:
+    helpstring3+=f'\n{x}'
+
 def get_win_rate(MC,col: Collection) -> tuple:
     wincount = len(list(col.find({'winningMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
     losscount = len(list(col.find({'losingMC':MC, 'generalcontext':{'$in':['Major','Variety']}})))
@@ -136,6 +145,18 @@ async def report(ctx):
 
     await ctx.author.send(file=discord.File(buffer,'Matchups.csv'))
     await ctx.author.send(file=discord.File(buffer2, 'MCWinRates.csv'))
+
+@bot.command(name='wr', help=helpstring3)
+async def winRate(ctx, mc):
+    if mc not in MCLIST:
+        await ctx.send("There is no win rate available for the provided MC, either because the MC hasn't won any games, or because the input was faulty.")
+        return
+    
+    client = pymongo.MongoClient(os.getenv('MONGO_URI'))
+    db = client['TourneyMUs']
+    collection = db['Matchups']
+    info: tuple = get_win_rate(mc, collection)
+    await ctx.send(f'{mc} has a win rate of {info[0]} with {info[1]} games played.')
 
 @bot.event
 async def on_member_join(member):
