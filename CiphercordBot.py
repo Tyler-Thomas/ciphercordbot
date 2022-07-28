@@ -120,9 +120,12 @@ async def report(ctx):
     rows2 = []
     MCs = list(collection.distinct('winningMC'))
     for MC in MCs:
-        mc_info=get_win_rate(MC, collection)
+        try:
+            mc_info=get_win_rate(MC, collection)
+        except:
+            ctx.send('There was trouble connecting to the database. Try again later.')
         rows2.append([MC,mc_info[0],mc_info[1]])
-    sorted(rows2, key=itemgetter(2), reverse=True) 
+    rows2.sort(key=itemgetter(2), reverse=True) 
     buffer2=io.StringIO()
     writer2= csv.writer(buffer2)
     writer2.writerow(header2)
