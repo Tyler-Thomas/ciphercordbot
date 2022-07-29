@@ -151,9 +151,9 @@ async def winRate(ctx, mc: str):
     print("Win rate command called")
     mc = mc.capitalize()
     if mc.__contains__('(m)'):
-        mc.replace('(m)','(M)')
+        mc=mc.replace('(m)','(M)')
     if mc.__contains__('(f)'):
-        mc.replace('(f)','(F)')
+        mc=mc.replace('(f)','(F)')
     print(mc)
     if mc not in MCLIST:
         await ctx.send("```There is no win rate available for the provided MC, either because the MC hasn't won any games, or because the input was faulty.```")
